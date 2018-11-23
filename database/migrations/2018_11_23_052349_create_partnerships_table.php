@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateContohsTable extends Migration
+class CreatePartnershipsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,11 @@ class CreateContohsTable extends Migration
      */
     public function up()
     {
-        Schema::create('contohs', function (Blueprint $table) {
+        Schema::create('partnerships', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('nama');
+            $table->text('alamat');
+            $table->string('kontak');
             $table->timestamps();
         });
     }
@@ -26,6 +29,6 @@ class CreateContohsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contohs');
+        Schema::dropIfExists('partnerships');
     }
 }
