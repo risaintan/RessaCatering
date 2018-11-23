@@ -317,6 +317,7 @@ class ComposerStaticInit7fec7f6f1f5e7f6e2cf20da2c54586d1
     );
 
     public static $classMap = array (
+        'App\\Admin' => __DIR__ . '/../..' . '/app/Admin.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Contoh' => __DIR__ . '/../..' . '/app/Contoh.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
@@ -331,6 +332,9 @@ class ComposerStaticInit7fec7f6f1f5e7f6e2cf20da2c54586d1
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Makanan' => __DIR__ . '/../..' . '/app/Makanan.php',
+        'App\\Partnership' => __DIR__ . '/../..' . '/app/Partnership.php',
+        'App\\Pesanan' => __DIR__ . '/../..' . '/app/Pesanan.php',
         'App\\Prasmanan' => __DIR__ . '/../..' . '/app/Prasmanan.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
