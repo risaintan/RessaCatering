@@ -288,7 +288,7 @@ header {
 }
 /*-- //header --*/
 .banner {
-    background: url(../images/banner.jpg)no-repeat 0px 0px;
+    background: url('/img/banner.jpg') no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
