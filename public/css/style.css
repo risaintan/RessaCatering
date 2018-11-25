@@ -1595,7 +1595,7 @@ figure.effect-jazz:hover p {
 /*-- //special --*/
 /*-- features --*/
 .features-left-info {
-    background: url(../images/f1.jpg) no-repeat 0px 0px;
+    background: url(/img/f1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 450px;
     margin: 5px;
