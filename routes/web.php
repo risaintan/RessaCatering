@@ -19,8 +19,8 @@ Route::get('/haha', function () {
     return view('test');
 });
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/beranda', function () {
+    return view('beranda');
 });
 
 Route::get('/wedding', function () {
