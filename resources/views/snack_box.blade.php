@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ressa Catering | Snack_box</title>
+<title>Ressa Catering | Snack Box</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,8 +16,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="{{'/css/bootstrap.css'}}" rel="stylesheet" type="text/css" media="all" />
-<link href="{{'/css/style.css'}}" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!--web-fonts-->
 <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -40,8 +40,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="contact-bnr-w3-agile">
 				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@EXAMPLE.COM</a></li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>+1 (100)222-23-33</li>	
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a></li>
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
+					<li>	
 					<li>
 						<div class="search">
 							<input class="search_box" type="checkbox" id="search_box">
@@ -72,14 +73,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						<h1><a href="index.html"><span>D</span>elish <span>F</span>ood</a></h1>
+						
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="about.html" class=" menu__link">Gallery</a></li>
 							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
@@ -88,14 +89,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<li><a href="icons.html">Prasmanan</a></li>
 						</ul>
 					</li>
-                    <li class="dropdown menu__item">
+							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Box<span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="codes.html">Makanan Box</a></li>
 							<li><a href="icons.html">Snack Box</a></li>
 						</ul>
                     </li>
-                            <li class="menu__item"><a href="gallery.html" class=" menu__link">Partner</a></li>
+                             <li class="menu__item"><a href="gallery.html" class=" menu__link">Partner</a></li>
 							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
@@ -109,153 +110,205 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //header -->
 	</div>
 <!-- //banner -->
-<!-- about-top -->
-	<div class="agile-about-top">
+<!-- special -->
+	<div class="special">
 		<div class="container">
-		<h2 class="tittle-w3">About<span>Us</span></h2>
-			<div class="about-section">
-				<div class="col-md-7 ab-left">
-				  <div class="grid">
-			        <div class="h-f">
-					<figure class="effect-jazz">
-					<img src="{{asset('/img/s1.jpg')}}" alt="img25">
-						<figcaption>
-							<h4>Delicious <span>Food</span></h4>
-							<p>Etiam quis quam auctor, cursus ipsum a, placerat dui.</p>
-						</figcaption>			
-					</figure>
-					
-				 </div>
-				 <div class="h-f">
-					<figure class="effect-jazz">
-						<img src="{{asset('/img/s2.jpg')}}" alt="img25">
-						<figcaption>
-							<h4>Delicious <span>Food</span></h4>
-							<p>Etiam quis quam auctor, cursus ipsum a, placerat dui.</p>
-							
-						</figcaption>			
-					</figure>
-					
-				 </div>
-				 <div class="clearfix"> </div>
-				 </div>
-			   </div>
-			   <div class="col-md-5 ab-text">
-			        <h3 class="tittle-w3"><span>A brief history of </span>about us</h3>
-					<p>Etiam quis quam auctor, cursus ipsum a, placerat dui. Aliquam erat volutpat. Donec bibendum viverra commodo. Morbi erat est, fringilla id sollicitudin sed, hendrerit nec est. Fusce maximus scelerisque turpis vel tempus
-					<span>Morbi scelerisque a dolor vel feugiat. Nunc volutpat, magna in interdum commodo, magna orci venenatis risus, eu congue dolor ante quis eros.</span></p>
+			<div class="special-heading">
+				<h2 class="tittle-w3"><span>SNACK</span> Box</h2>
+			</div>
+			<div class="special-grids">
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 w3ls-special-img">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="col-md-6 agileits-special-info">
+						<h4>Risoles</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 w3ls-special-img wthree-img">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="col-md-6 agileits-special-info">
+						<h4>Pie Buah</h4>
+						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 w3ls-special-img wthree-img1">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="col-md-6 agileits-special-info">
+						<h4>Brownies</h4>
+						<p>Donec nibh enim, sodales laoreet sit amet, tincidunt</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 agileits-special-info">
+						<h4>Bika Ijo Kenari</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur</p>
+					</div>
+					<div class="col-md-6 w3ls-special-img wthree-img2">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 agileits-special-info">
+						<h4>Sus Cocktail</h4>
+						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="col-md-6 w3ls-special-img wthree-img3">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 w3l-special-grid">
+					<div class="col-md-6 agileits-special-info">
+						<h4>Lemper</h4>
+						<p>Donec nibh enim, sodales laoreet sit amet, tincidunt</p>
+					</div>
+					<div class="col-md-6 w3ls-special-img wthree-img4">
+						<div class="w3ls-special-text effect-1">
+						</div>
+					</div>
+					<div class="clearfix"> </div>
 				</div>
 				<div class="clearfix"> </div>
-			 </div>
+			</div>
 		</div>
 	</div>
-	<!-- //about-top -->
-	<!--count-->
-			<div class="count-agileits">
-				<div id="particles-js"></div>
-					
-					<div class="count-grids">
-					<h3 class="tittle-w3">Handling <span>your needs</span> with care</h3>
-					<div class="count-bgcolor-w3ls">
-						<div class="col-md-4 count-grid">
-						<i class="fa fa-cutlery" aria-hidden="true"></i>
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1052' data-delay='.5' data-increment="100">1052</div>
-									<span></span>
-									<h5>Products available</h5>
-							</div>
-						</div>
-						<div class="col-md-4 count-grid">
-						<i class="fa fa-users" aria-hidden="true"></i>
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='372' data-delay='.5' data-increment="100">372</div>
-									<span></span>
-									<h5>Clients come back</h5>
-							</div>
-						</div>
-						<div class="col-md-4 count-grid">
-						<i class="fa fa-user-plus" aria-hidden="true"></i>
-							<div class="count hvr-bounce-to-bottom">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='105209' data-delay='.5' data-increment="100">105209</div>
-									<span></span>
-									<h5>Site members</h5>
-								</div>
-						</div>
-						<div class="clearfix"></div>
-						</div>
-					</div>
+	<!-- //special -->
+	<!--services-section-->
+<div class="services-w3layouts" id="services">
+	<!-- //Stats -->
+			<div class="col-md-12 agitsworkw3ls-grid ">
+			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
+			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
+			<div class="blabla-left-w3-agile">
+				<h3 class="tittle-w3 sub-head"><span>Paket </span>A</h3>
+				<ul>
+					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
+				</ul>
+				</div>
+				<div class="blabla-right-w3-agile">
+				<h3 class="tittle-w3 sub-head"><span>Paket </span> B</h3>
+				<ul>
+					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
+				</ul>
+				</div>
 			</div>
-				<!--count-->
-	<!--team-->
-	<div class="team">
+
+			
+			<div class="clearfix"></div>
+	<!-- //Stats -->
+<div class="clearfix"></div>
+</div>
+
+<div class="all-comments-info">
+	<h5 >PESAN DISINI=</h5>
+   <div class="agile-info-wthree-box">
+	   <form>
+		  <div class="col-md-6 form-info">
+		   <input type="text" name="name" placeholder="Pilih Paket.." required="">			           					   
+		   <input type="email" name="email" placeholder="Pilih Phone.." required="">
+		   <input type="text" name="phone" placeholder="Pilih Alamat.." required="">	
+		 </div>
+		  <div class="col-md-6 form-info">
+		   
+		   <textarea placeholder="Pilihan menu-menu.." required=""></textarea>
+		   <input type="submit" value="PESAN">
+		</div>
+		<div class="clearfix"> </div>
+		   
+		   
+	   </form>
+   </div>
+   <div class="clearfix"></div>
+</div>
+<!--//services-section-->
+	<!-- features -->
+	<div class="features">
 		<div class="container">
-			<h3 class="tittle-w3"><span>Our </span>Chefs</h3>
-			<div class="team-row">
-				<div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
-					<h5>Thom<span>son</span></h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipi est eligendi scing elit consectetur</p>
-					<div class="social-bnr-agileits about-agile">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
-						</ul>
+			<div class="features-heading">
+				<h3 class="tittle-w3"><span>Catatan</span>:</h3>
+			</div>
+			<div class="features-grids">
+				<div class="col-md-8 features-right">
+					<div class="features-right-info">
+						<h4>Ada beberapa hal yang perlu diketahui sebelum melakukan pemesanan Snack Box seperti berikut.</h4>
 					</div>
-					<div class="team-img">
-						<img src="{{asset('/img/t1.jpg')}}" alt="">
+					<div class="features-right-grids">
+						<div class="features-right-left">
+							<div class="features-right-icon effect-2">
+								<i class="fa fa-users" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="features-right-right">
+							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-right-grids">
+						<div class="features-right-left">
+							<div class="features-right-icon effect-2">
+								<i class="fa fa-asterisk" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="features-right-right">
+							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-right-grids">
+						<div class="features-right-left">
+							<div class="features-right-icon effect-2">
+								<i class="fa fa-inr" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="features-right-right">
+							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="features-right-grids">
+						<div class="features-right-left">
+							<div class="features-right-icon effect-2">
+								<i class="fa fa-cog" aria-hidden="true"></i>
+							</div>
+						</div>
+						<div class="features-right-right">
+							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
 				</div>
-				<div class="col-md-3 team-grids team-mdl wow fadeInUp animated" data-wow-delay=".5s">
-					<h5>Mary <span>Doe</span></h5>
-					<p>Consectetur adipi lorem ipsum dolor sit amet, est eligendi scing elit consectetur.</p>
-					<div class="social-bnr-agileits about-agile">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
-						</ul>
-					</div>
-					<div class="team-img">
-						<img src="{{asset('/img/t2.jpg')}}" alt="">
-					</div>
-				</div>
-				<div class="col-md-3 team-grids team-mdl1 wow fadeInUp animated" data-wow-delay=".5s">
-					<h5>Victo<span>ria</span></h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipi est eligendi scing elit consectetur.</p>
-					<div class="social-bnr-agileits about-agile">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
-						</ul>
-					</div>
-					<div class="team-img">
-						<img src="i{{asset('/img/t3.jpg')}}" alt="">
-					</div>
-				</div>
-				<div class="col-md-3 team-grids wow fadeInUp animated" data-wow-delay=".5s">
-					<h5>Patrick <span>Pool</span></h5>
-					<p>Eligendi scing elit lorem ipsum dolor sit amet, consectetur dolore magnam aliquam</p>
-					<div class="social-bnr-agileits about-agile">
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
-						</ul>
-					</div>
-					<div class="team-img">
-						<img src="{{asset('/img/t4.jpg')}}" alt="">
+				<div class="col-md-4 features-left">
+					<div class="features-left-info">
 					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>	
-	<!--//team-->	
+	</div>
+	<!-- //features -->
 <!-- Footer -->
 
 			<div class="copyright-wthree">
@@ -265,9 +318,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript" src="js/numscroller-1.0.js"></script>
-<script src="js/particles.js"></script>
-			<script src="js/app.js"></script>
 <!-- Dropdown-Menu-JavaScript -->
 			<script>
 				$(document).ready(function(){
@@ -316,8 +366,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--js for bootstrap working-->
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
-
-
 <!-- script-for-menu -->
 					<script>					
 						$("span.menu").click(function(){

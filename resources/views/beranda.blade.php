@@ -73,7 +73,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						<h1><a href="index.html"><span>R</span>essa <span>C</span>atering</a></h1>
+						
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -225,7 +225,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-6 agitsworkw3ls-grid ">
 			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
 			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
-			<div class="services-left-w3-agile">
+			<div class="blabla-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Our </span>Menu</h3>
 				<ul>
 					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
@@ -235,7 +235,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
 				</ul>
 				</div>
-				<div class="services-right-w3-agile">
+				<div class="blabla-right-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Catering</span> for</h3>
 				<ul>
 					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>

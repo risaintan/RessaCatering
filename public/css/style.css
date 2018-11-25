@@ -748,7 +748,7 @@ a.read:hover {
 }
 /*-- about-btm --*/
   .ab-w3-agile-img {
-    background: url(../images/ab.jpg) no-repeat 0px 0px;
+    background: url('/img/ab.jpg') no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1031,11 +1031,24 @@ canvas.particles-js-canvas-el{
     margin-bottom: 1em;
 }
 .services-left-w3-agile {
-    width: 50%;
+    width: 33%;
     float: left;
 }
 .services-right-w3-agile {
+    width: 33%;
+    float: left;
+}
+.blabla-left-w3-agile {
     width: 50%;
+    float: left;
+}
+.blabla-right-w3-agile {
+    width: 50%;
+    float: left;
+}
+
+.services-middle-w3-agile {
+    width: 33%;
     float: left;
 }
 .agitsworkw3ls-grid ul li {
@@ -1500,7 +1513,7 @@ figure.effect-jazz:hover p {
 }
 .w3ls-special-img {
     padding: 0;
-    background: url(../images/s1.jpg) no-repeat -17px 0px;
+    background: url('/img/s1.jpg') no-repeat -17px 0px;
     min-height: 171px;
     background-size: cover;
     text-align: center;
@@ -1527,23 +1540,23 @@ figure.effect-jazz:hover p {
     margin: 1em 0 .5em 0;
 }
 .wthree-img{
-    background: url(../images/s2.jpg) no-repeat -35px 0px;
+    background: url('/img/s2.jpg') no-repeat -35px 0px;
     background-size: cover;
 }
 .wthree-img1{
-    background: url(../images/s3.jpg) no-repeat -46px 0px;
+    background: url('/img/s3.jpg') no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img2{
-    background: url(../images/s4.jpg) no-repeat -46px 0px;
+    background: url('/img/s4.jpg') no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img3{
-    background: url(../images/s5.jpg) no-repeat -46px 0px;
+    background: url('/img/s5.jpg') no-repeat -46px 0px;
     background-size: cover;	
 }
 .wthree-img4{
-    background: url(../images/s6.jpg) no-repeat -46px 0px;
+    background: url('/img/s6.jpg') no-repeat -46px 0px;
     background-size: cover;	
 }
 .w3ls-special-text h4 {
