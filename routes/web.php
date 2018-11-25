@@ -30,3 +30,6 @@ Route::get('/wedding', function () {
 Route::get('/prasmanan', function () {
     return view('prasmanan');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
