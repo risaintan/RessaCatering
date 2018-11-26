@@ -19,7 +19,7 @@ Route::get('/haha', function () {
     return view('test');
 });
 
-Route::get('/beranda', function () {
+Route::get('/home', function () {
     return view('beranda');
 });
 
@@ -41,4 +41,4 @@ Route::get('/makanan_box', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
