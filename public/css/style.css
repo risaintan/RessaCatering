@@ -97,7 +97,7 @@ header {
     z-index: 999;
 }
 .w3_navigation_pos h1 a{
-	font-size: 1.1em;
+	font-size: 60px;
     color: #212121;
     text-decoration: none;
     display: block;
@@ -475,7 +475,7 @@ label.icon-search span {
     left: 0.4em;
 }
 .w3_navigation_pos span {
-    color: #fd6239;
+    color: #fd3939;
     font-family: 'Tangerine', cursive;
     font-size: 70px;
     font-weight: bold;

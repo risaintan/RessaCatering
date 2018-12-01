@@ -39,6 +39,13 @@ Route::get('/makanan_box', function () {
     return view('makanan_box');
 });
 
+Route::get('/partner', function () {
+    return view('partner');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
 Auth::routes();
 
 // Route::get('/home', 'HomeController@index')->name('home');

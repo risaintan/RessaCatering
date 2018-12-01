@@ -80,23 +80,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="about.html" class=" menu__link">Gallery</a></li>
+							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
 							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="codes.html">Wedding</a></li>
-							<li><a href="icons.html">Prasmanan</a></li>
+							<li><a href="{{ url('/wedding') }}">Wedding</a></li>
+							<li><a href="{{ url('/prasmanan') }}">Prasmanan</a></li>
 						</ul>
 					</li>
 							<li class="dropdown menu__item">
-						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Box<span class="caret"></span></a>
+						<a href="#" class="dropdown-toggle menu__link menu__item--current"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Box<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="codes.html">Makanan Box</a></li>
-							<li><a href="icons.html">Snack Box</a></li>
+							<li><a href="{{ url('/makanan_box') }}">Makanan Box</a></li>
+							<li><a href="{{ url('/snack_box') }}">Snack Box</a></li>
 						</ul>
                     </li>
-                             <li class="menu__item"><a href="gallery.html" class=" menu__link">Partner</a></li>
+                             <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
 							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
