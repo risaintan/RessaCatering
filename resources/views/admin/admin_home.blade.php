@@ -39,14 +39,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</ul>
 			</div>
 
-			 
-			
-			<div class="contact-bnr-w3-agile">
-			@if (Route::has('login'))
-				<ul>
-					<li>
-					@auth
-					<a href="{{ route('logout') }}"
+			 <div class="flex-center position-ref full-height">
+            @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="{{ url('/home') }}">Home</a>
+						<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                             Logout
@@ -57,10 +55,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </form>
                     @else
                         <a href="{{ route('login') }}">Login</a>
-                        <li><a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('register') }}">Register</a>
                     @endauth
-					</li>
-			@endif
+                </div>
+            @endif
+			
+			<div class="contact-bnr-w3-agile">
+				<ul>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
 					<li>
 						<div class="search">
@@ -92,7 +94,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
+						
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -350,10 +352,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
-<script type="text/javascript" src="{{asset('/js/jquery-2.1.4.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('/js/numscroller-1.0.js')}}"></script>
-<script src="{{asset('/js/particles.js')}}"></script>
-<script src="{{asset('/js/app.js')}}"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
 <!--gallery-->
 <script type="text/javascript">
 							$(window).load(function() {
@@ -382,7 +384,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								
 							});
 					</script>
-					<script type="text/javascript" src="{{asset('/js/jquery.flexisel.js')}}"></script>
+					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 <!--gallery-->
 <!-- Dropdown-Menu-JavaScript -->
 			<script>

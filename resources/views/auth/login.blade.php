@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
 			<div class="contact-bnr-w3-agile">
 				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a></li>
+				<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
 					<li>
 						<div class="search">
@@ -60,40 +60,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 		</div>
-		<header>
-			<div class="container">
 
-			<!-- navigation -->
-			<div class="w3_navigation">
-			<nav class="navbar navbar-default">
-				<div class="navbar-header navbar-left">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<div class="w3_navigation_pos">
-						
-					</div>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				
-		<!-- //navigation -->
-			</div>
-		</header>
 	<!-- //header -->
 	<!-- banner-text -->
+	<div class="w3_navigation_pos">
+				<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
+	</div>
+	
 		<div class="banner-text"> 
-			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
-			
+			<h2>Welcome !</h2>
 		</div>
+		<br>
+		
 		<!-- gallery -->
-        <div class="container">
+		<div class="agile-info-wthree-box">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+			<div class="panel-heading"><h2>LOGIN</h2></div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -139,10 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
                         <div class="form-group">
                             <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Login
-                                </button>
-
+							<input type="submit" value="LOGIN">
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
@@ -157,8 +138,39 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //gallery -->
 	</div>
 <!-- //banner -->
- 
+<!-- mail -->
+				<div class="mail">
+					<div class="mail-grid1">
+					<div class="container">	
+						<h3 class="tittle-w3">Contact <span>Info</span></h3>
+							<div class="col-md-4 mail-agileits-w3layouts">
+								<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
+								<div class="contact-right">
+									<p>Phone</p><span>+62 817-177-827</span>
+								</div>
+							</div>
+							<div class="col-md-4 mail-agileits-w3layouts">
+								<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+								<div class="contact-right">
+									<p>Email</p><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a>
+								</div>
+							</div>
+							<div class="col-md-4 mail-agileits-w3layouts">
+								<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+								<div class="contact-right">
+									<p>Address</p><span>Jl. Merah Delima A4 No 1.<br>Kelapa Gading - Jakarta Utara</span>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+			<!-- //mail -->
+
+			<div class="copyright-wthree">
+				<p>&copy; 2017 Delish Food . All Rights Reserved | Design by <a href="http://w3layouts.com/"> W3layouts </a></p>
+			</div>
 <!-- //Footer -->
+ 
 
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->

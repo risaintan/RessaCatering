@@ -27,7 +27,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!-- banner -->
-	<div class="banner inner-bg-w3" id="home">
+<div class="banner" id="home">
 		<!-- header -->
 		<div class="banner-top">
 			<div class="social-bnr-agileits">
@@ -38,10 +38,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
 				</ul>
 			</div>
+
+			 
+			
 			<div class="contact-bnr-w3-agile">
+			@if (Route::has('login'))
 				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@EXAMPLE.COM</a></li>
-					<li><i class="fa fa-phone" aria-hidden="true"></i>+1 (100)222-23-33</li>	
+					<li>
+					@auth
+					<a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                    @else
+                        <a href="{{ route('login') }}">Login</a>
+                        <li><a href="{{ route('register') }}">Register</a>
+                    @endauth
+					</li>
+			@endif
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
 					<li>
 						<div class="search">
 							<input class="search_box" type="checkbox" id="search_box">
@@ -72,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						
+						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->

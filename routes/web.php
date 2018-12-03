@@ -47,6 +47,10 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::get('/admin', function () {
+    return view('admin/admin_home');
+});
+
 
 Auth::routes();
 

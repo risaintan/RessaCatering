@@ -179,7 +179,7 @@ header {
 .menu--miranda .menu__link::after {
 	content: '';
 	position: absolute;
-	background: #fd6239;
+	background: #d80707;
 	-webkit-transition: -webkit-transform 0.1s;
 	transition: transform 0.1s;
 	-webkit-transition-timing-function: cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -377,7 +377,6 @@ header {
     -o-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
-	text-transform: lowercase;
 	font-size: 15px;
 }
 .contact-bnr-w3-agile ul li a:hover{
@@ -471,11 +470,11 @@ label.icon-search span {
 .w3_navigation_pos h1 a {
     text-decoration: none;
     color: #faf8f7;
-    font-size: 41px;
+    font-size: 30px;
     left: 0.4em;
 }
 .w3_navigation_pos span {
-    color: #fd3939;
+    color: #d80707;
     font-family: 'Tangerine', cursive;
     font-size: 70px;
     font-weight: bold;
@@ -490,7 +489,7 @@ label.icon-search span {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: 2px;
 }
 /*-- banner-form--*/
