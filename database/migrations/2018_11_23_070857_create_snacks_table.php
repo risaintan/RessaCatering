@@ -16,6 +16,7 @@ class CreateSnacksTable extends Migration
         Schema::create('snacks', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nama');
+            $table->string('paket');
             $table->string('telephone');
             $table->text('alamat');
             $table->text('list_snack');

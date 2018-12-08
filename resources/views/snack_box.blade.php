@@ -246,13 +246,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    <div class="agile-info-wthree-box">
 	   <form>
 		  <div class="col-md-6 form-info">
-		   <input type="text" name="name" placeholder="Pilih Paket.." required="">			           					   
-		   <input type="email" name="email" placeholder="Pilih Phone.." required="">
-		   <input type="text" name="phone" placeholder="Pilih Alamat.." required="">	
+		  <input type="text" name="nama" placeholder="Nama..." required="">
+		   <input type="text" name="paket" placeholder="Pilih Paket.." required="">			           					   
+		   <input type="text" name="telephone" placeholder="Phone.." required="">
+		   <input type="text" name="alamat" placeholder="Alamat.." required="">	
 		 </div>
 		  <div class="col-md-6 form-info">
 		   
-		   <textarea placeholder="Pilihan menu-menu.." required=""></textarea>
+		   <textarea name="list_snack" placeholder="Pilihan menu-menu.." required=""></textarea>
 		   <input type="submit" value="PESAN">
 		</div>
 		<div class="clearfix"> </div>

@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/makanan_box', 'MakananController@index');
+
+Route::get('/snack_box', 'SnackController@index');
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -31,13 +35,6 @@ Route::get('/prasmanan', function () {
     return view('prasmanan');
 });
 
-Route::get('/snack_box', function () {
-    return view('snack_box');
-});
-
-Route::get('/makanan_box', function () {
-    return view('makanan_box');
-});
 
 Route::get('/partner', function () {
     return view('partner');
@@ -55,3 +52,4 @@ Route::get('/admin', function () {
 Auth::routes();
 
 Route::get('/beranda', 'HomeController@index')->name('home');
+
