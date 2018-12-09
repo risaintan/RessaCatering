@@ -715,7 +715,7 @@ p.para-w3l {
     margin: 0em auto 2.2em;
     width: 90%;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 .about-read a {
     display: block;
@@ -753,7 +753,7 @@ a.read:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 697px;
+    min-height: 970px;
 	float:right;
 }
 .ab-w3-agile-info{
@@ -774,7 +774,7 @@ padding: 0;
 .ab-w3-agile-part {
     padding: 0;
     background: #26d797;
-    padding: 2.5em;
+    padding: 6.5em;
 }
 .ab-w3-agile-part h4 {
     font-size: 1.5em;

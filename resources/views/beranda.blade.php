@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href="#" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -181,26 +181,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //banner -->
  <div class="ab-w3l-about">
 	<div class="container">
-		 <h3 class="tittle-w3"><span>Welcome to Our</span> Delish Food</h3>
-			<p class="para-w3l">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the printing and typesetting industry
+		 <h3 class="tittle-w3"><span>Welcome to</span> Ressa Catering</h3>
+			<p class="para-w3l">Kami menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda..
+Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya.
+MUTU DAN RASA adalah motto kami...
+Kami siap melayani dan memenuhi pesanan anda - kepuasan anda adalah tujuan kami, percayakanlah acara anda pada kami..
+</p>
 	</div>
 </div>
 	<div class="about" id="about">
       <div class="col-md-6 ab-w3-agile-info">
 	   <div class="ab-w3-agile-info-text">
 	     <h3 class="tittle-w3">About<span> Us</span></h3>
-		 <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took a galley of type and scrambled it to make a type specimen book.Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took  Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet</p>
+		 <p class="para-w3l">Awalnya dari belajar membuat kue kecil-kecilan untuk konsumsi rapat di kantor tertentu berupa konsumsi snack dan lama kelamaan menumbuhkan kepercayaan yang semakin meluas kemudian mencoba melayani pesanan konsumsi makan siang dan Alhamdulillah ternyata dapat memikat langganan yang semakin banyak. Sehingga atas dasar inilah akhirnya tertarik untuk mengembangkan usaha jasa boga berupa layanan catering.
+
+Atas persetujuan dan dukungan keluarga maka pada tahun 1984 dibentuklah layanan catering dengan nama RESSA Catering kependekan dari Restu Suami dan Anak.
+
+RESSA Catering menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda.
+
+Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 			<div class="about-read">
 			</div>
 		  </div>
 		  <div class="ab-w3-agile-inner">
 	       <div class="col-md-6 ab-w3-agile-part">
-				<h4>Handling your needs with care</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
+				<h4>Wedding & Party Service Organizer</h4>
 	       </div>
 			<div class="col-md-6 ab-w3-agile-part two">
-			<h4>Best recipes with best ingredients</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit., a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
+			<h4>Catering (Makanan Box & Snack Box)</h4>
 	       </div>
 			<div class="clearfix"></div>		   
 	  </div>	
@@ -214,12 +222,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--blogs-->
 <div class="agile-blogs" id="blogs">
 	<div class="container">
-	<h3 class="tittle-w3"><span>Popular </span>Recipes</h3>
+	<h3 class="tittle-w3"><span>Pelayanan </span>Kami</h3>
 		<div class="g1 agile-blog1">
 			<a href="#"><img src="{{asset('/img/bl1.jpg')}}" alt="blog1"></a>
 				<div class="text-w3">
-					<h3 class="tittle-w3 sub-head"><span>Roasted Heritage Carrot</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
+					<h3 class="tittle-w3 sub-head"><span>Contoh Makanan Box</span></h3>
+					<p class="para-w3l">Menyediakan menu nasi box dengan berbagai macam lauk.</p>
 				
 				</div>
 				<div class="clearfix"></div>
@@ -227,8 +235,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="g2 agile-blog2">
 			<a href="#"><img src="{{asset('/img/bl2.jpg')}}" alt="blog1"></a>
 				<div class="text-w3l">
-					<h3 class="tittle-w3 sub-head"><span>Fritto Misto</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
+					<h3 class="tittle-w3 sub-head"><span>Contoh Pelaminan</span></h3>
+					<p class="para-w3l">Menyediakan layanan perkawinan dari mulai pelaminan sampai catering. Serta rekomendasi tempat dan salon rekanan.</p>
 						
 				</div>
 				<div class="clearfix"></div>
@@ -242,13 +250,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services-w3layouts" id="services">
 	<!-- //Stats -->
 			<div class="col-md-6 agitsworkw3ls-grid ">
-			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
-			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
+			<h3 class="tittle-w3"><span>Beautiful</span> decoration <span>& </span>delicious <span>food</span></h3>
 			<div class="blabla-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Our </span>Menu</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>CAKE & PASTRY</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>COFFE BREAK</li>
 					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
 					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
 					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
@@ -271,7 +278,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			         <ul>
 					  <li>
 						  <div class="gallery-grid1">
-								<a href="single.html"><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
+								<a><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
 								<div class="p-mask">
 										<h4><span>D</span>elish <span>F</span>ood</h4>
 									<p>Neque porro quisquam est, qui dolorem ipsum.</p>
@@ -280,16 +287,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  </li>
 					   <li>
 					     <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
+									<h4><span>R</span>essa <span>C</span>atering</h4>
 								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
 							</div>
 						</div>
 					   </li>
 						<li>
 						   <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>D</span>elish <span>F</span>ood</h4>
 								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
@@ -298,7 +305,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li>
 					    <li>
 						  <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>D</span>elish <span>F</span>ood</h4>
 								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
