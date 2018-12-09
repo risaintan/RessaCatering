@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/makanan_box', 'MakananController@index');
+Route::get('/makanan_box', 'MakananController@index')->name('makanan.index');
+Route::post('/makanan_box', 'MakananController@storeMakanan')->name('makanan.pesan');
 
 Route::get('/snack_box', 'SnackController@index');
+Route::post('/snack_box', 'SnackController@storeSnack')->name('snack.pesan');
 
 Route::get('/', function () {
     return view('welcome');

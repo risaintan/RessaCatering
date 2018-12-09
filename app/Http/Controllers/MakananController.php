@@ -10,7 +10,10 @@ class MakananController extends Controller
 {
     //Nampilin halaman makanan_box
     public function index(){
+     return view('makanan_box');
+    }
 
+    public function storeMakanan(){
         Makanan :: create([
             'nama' => request('nama'),
     		'paket' => request('paket'),
@@ -18,7 +21,9 @@ class MakananController extends Controller
     		'alamat' => request('alamat'),
             'list_makanan' => request('list_makanan')
            ]);
-           return view('makanan_box');
+           return view('makanan_box');   
     }
+
+    
 
 }

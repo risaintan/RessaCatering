@@ -256,22 +256,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="all-comments-info">
 	<h5>PESAN DISINI=</h5>
    <div class="agile-info-wthree-box">
-	   <form method="POST" action="{{url('/makanan_box')}}">
+	   <form method="POST" action="{{route('makanan.pesan')}}">
 	   {{csrf_field()}}
 		  <div class="col-md-6 form-info">
-		  <input type="text" name="nama" placeholder="Nama..." required="">
-		   <input type="text" name="paket" placeholder="Pilih Paket.." required="">			           					   
-		   <input type="text" name="telephone" placeholder="Phone.." required="">
-		   <input type="text" name="alamat" placeholder="Alamat.." required="">	
+		  <input type="text" name="nama" placeholder="Nama...">
+		   <input type="text" name="paket" placeholder="Pilih Paket.." >			           					   
+		   <input type="text" name="telephone" placeholder="Phone..">
+		   <input type="text" name="alamat" placeholder="Alamat..">	
 		 </div>
 		  <div class="col-md-6 form-info">
 		   
-		   <textarea name="list_makanan" placeholder="Pilihan menu-menu.." required=""></textarea>
+		   <textarea name="list_makanan" placeholder="Pilihan menu-menu.."></textarea>
 		   <input type="submit" value="PESAN">
 		</div>
 		<div class="clearfix"> </div>
-		   
-		   
 	   </form>
    </div>
    <div class="clearfix"></div>

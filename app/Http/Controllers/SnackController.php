@@ -9,7 +9,10 @@ use App\Http\Controllers\Controller;
 class SnackController extends Controller
 {
     public function index(){
+     return view('snack_box');
+    }
 
+    public function storeSnack(){
         Snack :: create([
             'nama' => request('nama'),
     		'paket' => request('paket'),

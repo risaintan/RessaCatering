@@ -244,7 +244,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="all-comments-info">
 	<h5 >PESAN DISINI=</h5>
    <div class="agile-info-wthree-box">
-	   <form>
+	   <form form method="POST" action="{{route('snack.pesan')}}">
+	   {{csrf_field()}}
 		  <div class="col-md-6 form-info">
 		  <input type="text" name="nama" placeholder="Nama..." required="">
 		   <input type="text" name="paket" placeholder="Pilih Paket.." required="">			           					   
