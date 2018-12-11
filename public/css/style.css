@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-}	
+}
 p{
 	margin:0;
 }
@@ -294,7 +294,7 @@ header {
 	-o-background-size: cover;
 	-ms-background-size: cover;
     background-size: cover;
-    min-height: 730px;
+  min-height: 100vh;
 	position:relative;
 	margin-bottom: 8.5em;
 }
@@ -572,7 +572,7 @@ label.icon-search span {
     width: 30%;
 }
 .form-date-w3-agileits.second-agile,.form-time-w3layouts.second-agile,.form-left-agileits-w3layouts.second-agile,.form-left-agileits-w3layouts.bottom-w3ls.second-agile {
- 
+
     margin-right:0!important;
 	    padding:0!important;
 }
@@ -634,7 +634,7 @@ h5.title-w3 {
 
 /*--flexisel--*/
 /*--gallery--*/
-.flex-slider{	
+.flex-slider{
 	background:#222227;
 	padding: 70px 0 165px 0;
 }
@@ -759,7 +759,7 @@ a.read:hover {
 .ab-w3-agile-info{
 float:left;
 padding: 0;
-	
+
 }
 .ab-w3-agile-info-text {
     padding: 3em 0em 2em;
@@ -1544,19 +1544,19 @@ figure.effect-jazz:hover p {
 }
 .wthree-img1{
     background: url('/img/s3.jpg') no-repeat -46px 0px;
-    background-size: cover;	
+    background-size: cover;
 }
 .wthree-img2{
     background: url('/img/s4.jpg') no-repeat -46px 0px;
-    background-size: cover;	
+    background-size: cover;
 }
 .wthree-img3{
     background: url('/img/s5.jpg') no-repeat -46px 0px;
-    background-size: cover;	
+    background-size: cover;
 }
 .wthree-img4{
     background: url('/img/s6.jpg') no-repeat -46px 0px;
-    background-size: cover;	
+    background-size: cover;
 }
 .w3ls-special-text h4 {
     color: #FFF;
@@ -1641,7 +1641,7 @@ figure.effect-jazz:hover p {
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     -moz-border-radius: 50%;
-    -o-border-radius: 50%;	
+    -o-border-radius: 50%;
 }
 .features-right-grids:hover .features-right-left{
 	background:#26d797;
@@ -1660,7 +1660,7 @@ figure.effect-jazz:hover p {
 	font-size:1em;
     line-height: 1.5em;
 	margin:0;
-	color:#000;	
+	color:#000;
 }
 .features-right-icon {
     position: relative;
@@ -1732,7 +1732,7 @@ figure.effect-jazz:hover p {
 }
 /* Common style */
 .grid figure {
-	position: relative;	
+	position: relative;
 	overflow: hidden;
 	margin: 10px 0;
 	height: auto;
@@ -2014,7 +2014,7 @@ figure.effect-apollo:hover p {
 		   color: #555;
 }
 .response-text-right ul{
-	padding:0;	
+	padding:0;
 	text-align: right;
 }
 .response-text-right ul li{
@@ -2337,7 +2337,7 @@ h3.hdg {
 .label {
   font-weight: 300 !important;
   border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -2653,7 +2653,7 @@ h2.typoh2{
 
 /*--responsive--*/
 @media(max-width:1680px){
-	
+
 }
 @media(max-width:1440px){
 	.ab-w3-agile-part {
@@ -2724,10 +2724,10 @@ h2.typoh2{
 }
 @media(max-width:1280px){
 	.w3_navigation_pos h1 a {
-		font-size: 37px;
+		font-size: 22px;
 	}
 	.w3_navigation_pos span {
-		font-size: 62px;
+		font-size: 50px;
 	}
 	.w3_navigation_pos {
 		left: 38.6%;
@@ -2739,7 +2739,7 @@ h2.typoh2{
 		padding: 4em 0 0 0;
 	}
 	.banner {
-		min-height: 640px;
+		min-height: 100vh;
 	}
 	.navbar-nav > li > a {
 		font-size: 15px;
@@ -2748,7 +2748,7 @@ h2.typoh2{
 		margin-right: 19em !important;
 	}
 	.menu--miranda .menu__item {
-		margin: 1.5em 1.8em;
+		margin: 1.5em 0.5em;
 	}
 	.text-w3 {
 		padding: 37px 0px;
@@ -3228,15 +3228,15 @@ h2.typoh2{
 	}
 	.wthree-img2{
 		background: url(../images/s4.jpg) no-repeat 0px 0px;
-		background-size: cover;	
+		background-size: cover;
 	}
 	.wthree-img3{
 		background: url(../images/s5.jpg) no-repeat 0px 0px;
-		background-size: cover;	
+		background-size: cover;
 	}
 	.wthree-img4{
 		background: url(../images/s6.jpg) no-repeat 0px 0px;
-		background-size: cover;	
+		background-size: cover;
 	}
 	.agileits-special-info {
 		padding: 3em;
@@ -3618,10 +3618,10 @@ h2.typoh2{
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
 		color: #1ca0de;
 	}
-	
-	
-	
-	
+
+
+
+
 	.icon-box {
 		width: 50%;
 		float: left;
@@ -3893,7 +3893,7 @@ h2.typoh2{
 		width: 77%;
 		margin-left: 1.5em;
 	}
-	
+
 	.features-right-info h4 {
 		letter-spacing: 0.2px;
 	}
