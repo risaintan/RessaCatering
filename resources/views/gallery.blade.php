@@ -8,7 +8,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="en">
 <head>
 <title>Ressa Catering | Gallery</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
 <!-- for-mobile-apps -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Delish Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -128,191 +142,144 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</header>
 	<!-- //header -->
 	<!-- banner-text -->
+
 		<div class="banner-text"> 
-			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2>GALERI</h2>
 			
-		</div>
-		<!-- gallery -->
-	<div class="gallery-ban" id="gallery">
-	<div class="container">
-				<ul id="flexiselDemo1">			
-					<li>
-						<div class="wthree_testimonials_grid_main">
-							
-									<img src="{{asset('/img/p1.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-							
-									<img src="{{asset('/img/p2.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p3.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p6.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p4.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p5.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-				</ul>
-				
-	</div>
-	</div>
-	<!-- //gallery -->
-	</div>
-<!-- //banner -->
- <div class="ab-w3l-about">
-	<div class="container">
-		 <h3 class="tittle-w3"><span>Welcome to Our</span> Delish Food</h3>
-			<p class="para-w3l">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the printing and typesetting industry
-	</div>
-</div>
-	<div class="about" id="about">
-      <div class="col-md-6 ab-w3-agile-info">
-	   <div class="ab-w3-agile-info-text">
-	     <h3 class="tittle-w3">About<span> Us</span></h3>
-		 <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took a galley of type and scrambled it to make a type specimen book.Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took  Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet</p>
-			<div class="about-read">
-			</div>
-		  </div>
-		  <div class="ab-w3-agile-inner">
-	       <div class="col-md-6 ab-w3-agile-part">
-				<h4>Handling your needs with care</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
-	       </div>
-			<div class="col-md-6 ab-w3-agile-part two">
-			<h4>Best recipes with best ingredients</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit., a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
-	       </div>
-			<div class="clearfix"></div>		   
-	  </div>	
-   </div>	 	  
-	  <div class="col-md-6 ab-w3-agile-img">
-	     
-	  </div>
+		</div> 
+
+
+
  
-		<div class="clearfix"></div>
-</div>
-<!--blogs-->
-<div class="agile-blogs" id="blogs">
-	<div class="container">
-	<h3 class="tittle-w3"><span>Popular </span>Recipes</h3>
-		<div class="g1 agile-blog1">
-			<a href="#"><img src="{{asset('/img/bl1.jpg')}}" alt="blog1"></a>
-				<div class="text-w3">
-					<h3 class="tittle-w3 sub-head"><span>Roasted Heritage Carrot</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
-				
-				</div>
-				<div class="clearfix"></div>
-		</div>
-		<div class="g2 agile-blog2">
-			<a href="#"><img src="{{asset('/img/bl2.jpg')}}" alt="blog1"></a>
-				<div class="text-w3l">
-					<h3 class="tittle-w3 sub-head"><span>Fritto Misto</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
-						
-				</div>
-				<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//blogs-->
 
-	
-				<!--services-section-->
-<div class="services-w3layouts" id="services">
-	<!-- //Stats -->
-			<div class="col-md-6 agitsworkw3ls-grid ">
-			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
-			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
-			<div class="blabla-left-w3-agile">
-				<h3 class="tittle-w3 sub-head"><span>Our </span>Menu</h3>
-				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
-				</ul>
-				</div>
-				<div class="blabla-right-w3-agile">
-				<h3 class="tittle-w3 sub-head"><span>Catering</span> for</h3>
-				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
-				</ul>
-				</div>
-			</div>
-
-			<div class="col-md-6 agitsworkw3ls-grid-2">
-			   <div class="info-imgs">
-			         <ul>
-					  <li>
-						  <div class="gallery-grid1">
-								<a href="single.html"><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
-								<div class="p-mask">
-										<h4><span>D</span>elish <span>F</span>ood</h4>
-									<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-								</div>
-							</div>
-					  </li>
-					   <li>
-					     <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-					   </li>
-						<li>
-						   <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-						</li>
-					    <li>
-						  <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-						</li>
-					 </ul>
-			   </div>
-				
-			</div>
-			<div class="clearfix"></div>
-	<!-- //Stats -->
-<div class="clearfix"></div>
+    <!-- Navigation 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+	<!-- Page Content -->
+	<div class="clearfix"></div>
 </div>
+    <div class="container">
+
+     
+
+      <div class="row text-center text-lg-left">
+
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/bl1.jpg')}}" alt="">
+		  </a>
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+			<img class="img-fluid img-thumbnail" src="{{asset('/img/a1.jpg')}}" alt="">
+			<br>
+		  </a> 
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a2.jpg')}}" alt=""> <br>
+		  </a>		  
+		</div>
+		<br>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a3.jpg')}}" alt=""><br>
+		  </a>		  
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a4.jpg')}}" alt=""> <br>
+          </a>
+		 
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a5.jpg')}}" alt="">
+          </a>
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a6.jpg')}}" alt="">
+          </a>
+		</div>
+		<br>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a7.jpg')}}" alt="">
+          </a>
+		</div>
+		
+		<div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a12.jpg')}}" alt="">
+          </a>
+        </div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a9.jpg')}}" alt="">
+          </a>
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a10.jpg')}}" alt="">
+          </a>
+		</div>
+		
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{asset('/img/a11.jpg')}}" alt="">
+          </a>
+		</div>
+		
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+ 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ <div class="clearfix"></div>
+</div>
+
 <!--//services-section-->
 
 <!-- mail -->

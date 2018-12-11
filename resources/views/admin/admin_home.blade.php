@@ -7,8 +7,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ressa Catering | Home</title>
+<title>Ressa Catering | Gallery</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Thumbnail Gallery - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
 <!-- for-mobile-apps -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Delish Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -27,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <!-- banner -->
-	<div class="banner" id="home">
+<div class="banner" id="home">
 		<!-- header -->
 		<div class="banner-top">
 			<div class="social-bnr-agileits">
@@ -39,12 +58,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</ul>
 			</div>
 
-			 <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-						<a href="{{ route('logout') }}"
+			 
+			
+			<div class="contact-bnr-w3-agile">
+			@if (Route::has('login'))
+				<ul>
+					<li>
+					@auth
+					<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                             Logout
@@ -55,14 +76,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         </form>
                     @else
                         <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <li><a href="{{ route('register') }}">Register</a>
                     @endauth
-                </div>
-            @endif
-			
-			<div class="contact-bnr-w3-agile">
-				<ul>
-					<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:estining5568@gmail.com">estining5568@gmail.com</a></li>
+					</li>
+			@endif
 					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
 					<li>
 						<div class="search">
@@ -94,15 +111,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						
+						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
+							<li class="menu__item"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
+							<li class="menu__item menu__item--current"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
 							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -130,191 +147,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</header>
 	<!-- //header -->
 	<!-- banner-text -->
+
 		<div class="banner-text"> 
-			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2>INPUT MAKANAN</h2>
 			
-		</div>
-		<!-- gallery -->
-	<div class="gallery-ban" id="gallery">
-	<div class="container">
-				<ul id="flexiselDemo1">			
-					<li>
-						<div class="wthree_testimonials_grid_main">
-							
-									<img src="{{asset('/img/p1.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-							
-									<img src="{{asset('/img/p2.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p3.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p6.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p4.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-					<li>
-						<div class="wthree_testimonials_grid_main">
-						
-									<img src="{{asset('/img/p5.jpg')}}" alt=" " class="img-responsive" />
-						</div>
-					</li>
-				</ul>
-				
-	</div>
-	</div>
-	<!-- //gallery -->
-	</div>
-<!-- //banner -->
- <div class="ab-w3l-about">
-	<div class="container">
-		 <h3 class="tittle-w3"><span>Welcome to Our</span> Delish Food</h3>
-			<p class="para-w3l">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s.Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores hasellusMaecenas ac hendrerit purus. Lorem ipsum dolor sit amet.Lorem Ipsum is simply dummy text of the printing and typesetting industry
-	</div>
-</div>
-	<div class="about" id="about">
-      <div class="col-md-6 ab-w3-agile-info">
-	   <div class="ab-w3-agile-info-text">
-	     <h3 class="tittle-w3">About<span> Us</span></h3>
-		 <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took a galley of type and scrambled it to make a type specimen book.Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet.when an unknown printer took  Proin ultricies vestibulum velit.Lorem ipsum dolor sit amet</p>
-			<div class="about-read">
-			</div>
-		  </div>
-		  <div class="ab-w3-agile-inner">
-	       <div class="col-md-6 ab-w3-agile-part">
-				<h4>Handling your needs with care</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit. a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
-	       </div>
-			<div class="col-md-6 ab-w3-agile-part two">
-			<h4>Best recipes with best ingredients</h4>
-		     <p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit., a galley of type and scrambled it to make a type specimen book. Proin ultricies vestibulum velit.</p>
-	       </div>
-			<div class="clearfix"></div>		   
-	  </div>	
-   </div>	 	  
-	  <div class="col-md-6 ab-w3-agile-img">
-	     
-	  </div>
+		</div> 
+
+
+
  
-		<div class="clearfix"></div>
+
+	<!-- Page Content -->
+	<div class="clearfix"></div>
 </div>
-<!--blogs-->
-<div class="agile-blogs" id="blogs">
-	<div class="container">
-	<h3 class="tittle-w3"><span>Popular </span>Recipes</h3>
-		<div class="g1 agile-blog1">
-			<a href="#"><img src="{{asset('/img/bl1.jpg')}}" alt="blog1"></a>
-				<div class="text-w3">
-					<h3 class="tittle-w3 sub-head"><span>Roasted Heritage Carrot</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
-				
-				</div>
-				<div class="clearfix"></div>
-		</div>
-		<div class="g2 agile-blog2">
-			<a href="#"><img src="{{asset('/img/bl2.jpg')}}" alt="blog1"></a>
-				<div class="text-w3l">
-					<h3 class="tittle-w3 sub-head"><span>Fritto Misto</span></h3>
-					<p class="para-w3l">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.Ut enim ad minim veniam.</p>
-						
-				</div>
-				<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!--//blogs-->
 
 	
-				<!--services-section-->
-<div class="services-w3layouts" id="services">
-	<!-- //Stats -->
-			<div class="col-md-6 agitsworkw3ls-grid ">
-			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
-			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
-			<div class="blabla-left-w3-agile">
-				<h3 class="tittle-w3 sub-head"><span>Our </span>Menu</h3>
-				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
-				</ul>
-				</div>
-				<div class="blabla-right-w3-agile">
-				<h3 class="tittle-w3 sub-head"><span>Catering</span> for</h3>
-				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
-				</ul>
-				</div>
-			</div>
 
-			<div class="col-md-6 agitsworkw3ls-grid-2">
-			   <div class="info-imgs">
-			         <ul>
-					  <li>
-						  <div class="gallery-grid1">
-								<a href="single.html"><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
-								<div class="p-mask">
-										<h4><span>D</span>elish <span>F</span>ood</h4>
-									<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-								</div>
-							</div>
-					  </li>
-					   <li>
-					     <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-					   </li>
-						<li>
-						   <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-						</li>
-					    <li>
-						  <div class="gallery-grid1">
-							<a href="single.html"><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
-							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
-							</div>
-						</div>
-						</li>
-					 </ul>
-			   </div>
-				
-			</div>
-			<div class="clearfix"></div>
-	<!-- //Stats -->
-<div class="clearfix"></div>
+<div class="container">
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Makanan</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Kategori</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Makanan Box</option>
+      <option>Snack Box</option>
+
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
 </div>
+
+
+
+
+ <div class="clearfix"></div>
+</div>
+
 <!--//services-section-->
 
 <!-- mail -->
