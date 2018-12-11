@@ -50,6 +50,9 @@ Route::get('/admin', function () {
     return view('admin/admin_home');
 });
 
+Route::get('/profile', function () {
+    return view('profile');
+});
 
 Auth::routes();
 
