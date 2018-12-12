@@ -15,6 +15,6 @@ class AdminController extends Controller
        }
 
     public function showmenu(){
-        return view('admin.admin_dashboard');
+        return view('admin.admin_input');
     }
 }
