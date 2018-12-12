@@ -68,7 +68,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	
 		<div class="banner-text"> 
-			<h2>Welcome !</h2>
+			<h2>Welcome ADMIN!</h2>
 		</div>
 		<br>
 		
@@ -77,10 +77,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-			<div class="panel-heading"><h2>LOGIN</h2></div>
+			<div class="panel-heading"><h2>LOGIN ADMIN</h2></div>
 
                 <div class="panel-body">
-                    <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+                    <form class="form-horizontal" method="POST" action="{{ route('admin.login') }}">
                         {{ csrf_field() }}
 
                         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
@@ -128,9 +128,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     Forgot Your Password?
                                 </a>
                             </div>
-							<a class="btn btn-link" href="{{ route('admin.login') }}">
-                                    Login as an Admin?
-                                </a>
                         </div>
                     </form>
                 </div>
@@ -226,55 +223,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					);
 				});
 			</script>
-		<!-- //Dropdown-Menu-JavaScript -->
-<!-- Calendar -->
-				<link rel="stylesheet" href="css/jquery-ui.css" />
-				<script src="js/jquery-ui.js"></script>
-				  <script>
-						  $(function() {
-							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
-						  });
-				  </script>
-			<!-- //Calendar -->
- <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<!-- start-smoth-scrolling -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
-								
-			$().UItoTop({ easingType: 'easeOutQuart' });
-								
-			});
-	</script>
-<!-- //here ends scrolling icon -->
-<!--js for bootstrap working-->
-	<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<!-- script-for-menu -->
-					<script>					
-						$("span.menu").click(function(){
-							$(".top-nav ul").slideToggle("slow" , function(){
-							});
-						});
-					</script>
-					<!-- script-for-menu -->
 </body>
 </html>

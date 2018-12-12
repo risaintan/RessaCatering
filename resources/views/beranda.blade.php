@@ -280,8 +280,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 						  <div class="gallery-grid1">
 								<a><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
 								<div class="p-mask">
-										<h4><span>D</span>elish <span>F</span>ood</h4>
-									<p>Neque porro quisquam est, qui dolorem ipsum.</p>
+									<h4><span>R</span>essa <span>C</span>atering</h4>
 								</div>
 							</div>
 					  </li>
@@ -290,7 +289,6 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 							<a><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>R</span>essa <span>C</span>atering</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
 							</div>
 						</div>
 					   </li>
@@ -298,8 +296,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 						   <div class="gallery-grid1">
 							<a><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
+									<h4><span>R</span>essa <span>C</span>atering</h4>
 							</div>
 						</div>
 						</li>
@@ -307,8 +304,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 						  <div class="gallery-grid1">
 							<a><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
-									<h4><span>D</span>elish <span>F</span>ood</h4>
-								<p>Neque porro quisquam est, qui dolorem ipsum.</p>
+									<h4><span>R</span>essa <span>C</span>atering</h4>
 							</div>
 						</div>
 						</li>

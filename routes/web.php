@@ -17,9 +17,15 @@ Route::post('/makanan_box', 'MakananController@storeMakanan')->name('makanan.pes
 Route::get('/snack_box', 'SnackController@index');
 Route::post('/snack_box', 'SnackController@storeSnack')->name('snack.pesan');
 
+Route::get('/admin', 'AdminController@index')->name('admin.index');
+Route::group(['middleware'=>['auth', 'admin']], function(){
+    Route::get('admin/input-menu', 'AdminController@showmenu')->name('admin.input');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
+
 
 Route::get('/haha', function () {
     return view('test');
@@ -46,15 +52,18 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
-Route::get('/admin', function () {
-    return view('admin/admin_home');
-});
 
 Route::get('/profile', function () {
     return view('profile');
 });
 
+
+
 Auth::routes();
 
 Route::get('/beranda', 'HomeController@index')->name('home');
+
+Route::get('admin-login', 'Auth\LoginController@showAdminLoginForm')->name('admin.login');
+Route::post('admin-login', 'Auth\LoginController@adminLogin');
+
 

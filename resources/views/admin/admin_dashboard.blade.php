@@ -100,8 +100,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="{{ route('admin.input') }}" class=" menu__link">Input<br>Menu</a></li>
-							<li class="menu__item"><a href="#" class=" menu__link">Pesanan</a></li>
+							<li class="menu__item"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
+							<li class="dropdown menu__item">
+						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{ url('/wedding') }}">Wedding</a></li>
+							<li><a href="{{ url('/prasmanan') }}">Prasmanan</a></li>
+						</ul>
+					</li>
+							<li class="dropdown menu__item">
+						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Box<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{ url('/makanan_box') }}">Makanan Box</a></li>
+							<li><a href="{{ url('/snack_box') }}">Snack Box</a></li>
+						</ul>
+                    </li>
+                             <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
+							<li class="menu__item"><a href="#" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -114,9 +129,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //header -->
 	<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>Selamat Datang admin!</h2>
-			<br>
-			<h2>Ada yang bisa dibantu?</h2>
+			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
 			</div>
 	
 	
@@ -125,10 +138,49 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</header>
 	<!-- //header -->
+	<!-- banner-text -->
+
+		<div class="banner-text"> 
+			<br>
+			<br>
+			<br>
+			<br>
+			<h2>INPUT MAKANAN</h2>
+			
+		</div> 
+
+
+
+ 
+
 	<!-- Page Content -->
 	<div class="clearfix"></div>
 </div>
 
+	
+
+<div class="container">
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Makanan</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Kategori</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Makanan Box</option>
+      <option>Snack Box</option>
+
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+</div>
 <!-- mail -->
 				<div class="mail">
 					<div class="mail-grid1">
