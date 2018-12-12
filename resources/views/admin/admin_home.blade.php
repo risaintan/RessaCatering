@@ -16,9 +16,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{url('css/font-awesome.css')}}" rel="stylesheet"> 
 <!--web-fonts-->
 <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -92,7 +92,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
+						<h1><a href="{{ route('admin.index') }}"><span>R</span>essa <span>C</span>atering</a></h1>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,7 +101,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="{{ route('admin.input') }}" class=" menu__link">Input<br>Menu</a></li>
-							<li class="menu__item"><a href="#" class=" menu__link">Pesanan</a></li>
 						</ul>
 					</nav>
 				</div>
