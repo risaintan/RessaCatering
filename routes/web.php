@@ -22,6 +22,10 @@ Route::get('/admin/input-menu', 'AdminController@showmenu')->name('admin.input')
 Route::post('/admin/input-menu', 'AdminController@storeFood')->name('admin.store');
 
 
+Route::get('/profile', 'ProfileController@index');
+Route::get('/profile','ProfileController@show')->name('profile');
+Route::PATCH('/profile/{post}', 'ProfileController@update')->name('profile.update');
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -49,9 +53,6 @@ Route::get('/gallery', function () {
 });
 
 
-Route::get('/profile', function () {
-    return view('profile');
-});
 
 
 

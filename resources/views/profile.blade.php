@@ -238,50 +238,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     	<div class="col-sm-9">
             <ul class="nav nav-tabs">
                 <li class="active"><a href="{{ url('/home') }}" data-toggle="tab" >Data Diri</a></li>
-              
-              </ul>
+				
+            </ul>
 
               
           <div class="tab-content">
             <div class="tab-pane active" id="home">
                 <hr>
-                  <form class="form" action="##" method="post" id="registrationForm">
-                      <div class="form-group">
-                          
+                  <form class="form" action="{{ route('profile.update', '$user->id')}}" method="post" >
+					{{ csrf_field() }}
+					{{ method_field('PATCH') }}
+					<div class="form-group">
                           <div class="col-xs-6">
                               <label for="name"><h4> Nama</h4></label>
-                              <input type="text" class="form-control" name="first_name" id="first_name" placeholder="name" title="enter your first name if any.">
+                              <input type="text" class="form-control" value="{{$users->name}}" name="first_name" id="first_name" placeholder="name" title="enter your first name if any.">
                           </div>
                       </div>
                      
-          
-                      <div class="form-group">
-                          
-                          <div class="col-xs-6">
-                              <label for="phone"><h4>Phone</h4></label>
-                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
-                          </div>
-                      </div>
-          
                       <div class="form-group">
                           <div class="col-xs-6">
                              <label for="mobile"><h4>Mobile</h4></label>
-                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                              <input type="text" class="form-control" value="{{$users->no_telp}}" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
                           </div>
                       </div>
                       <div class="form-group">
                           
                           <div class="col-xs-6">
                               <label for="email"><h4>Email</h4></label>
-                              <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
+                              <input type="email" class="form-control" value="{{$users->email}}" name="email" id="email" placeholder="you@email.com" title="enter your email.">
                           </div>
                       </div>
-                     
                      
                       <div class="form-group">
                            <div class="col-xs-12">
                                 <br>
-                              	<button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                              	<button class="btn btn-lg btn-success" type="submit" value="Save"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
                                	
                             </div>
                       </div>
