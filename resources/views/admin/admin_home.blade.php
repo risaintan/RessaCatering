@@ -99,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
+							<li class="menu__item menu__item--current"><a href="{{ route('admin.index') }}" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="{{ route('admin.input') }}" class=" menu__link">Input<br>Menu</a></li>
 						</ul>
 					</nav>
@@ -130,88 +130,92 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
         
         <div class="col-md-12">
-        <h4>PESANAN</h4>
+        <h4>PESANAN MAKANAN BOX</h4>
         <div class="table-responsive">
 
                 
               <table id="mytable" class="table table-bordred table-striped">
                    
                    <thead>
+				   <th>No</th>
                    <th>Nama Lengkap</th>
                     <th>Paket Pesanan</th>
                      <th>Alamat</th>
                      <th>Telephone</th>
                      <th>List Makanan</th>
-                      <th>Edit</th>
-                      
                        <th>Delete</th>
                    </thead>
     <tbody>
-    
-    <tr>
-    
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-    </tr>
-    
- <tr>
-    
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-    </tr>
-    
-    
- <tr>
-    
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-    </tr>
-    
-    
-    
- <tr>
- 
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-    </tr>
-    
-    
- <tr>
-    
-    <td>Mohsin</td>
-    <td>Irshad</td>
-    <td>CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan</td>
-    <td>isometric.mohsin@gmail.com</td>
-    <td>+923335586757</td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
-    <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
-    </tr>
-    
-   
-    
-   
-    
-    </tbody>
+
+                @php(
+                    $no = 1 {{-- buat nomor urut --}}
+                    )
+                {{-- loop all kendaraan --}}
+                @foreach ($makanans as $makanan)
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $makanan->nama }}</td>
+                        <td>{{ $makanan->paket }}</td>
+                        <td>{{ $makanan->alamat }}</td>
+                        <td>{{ $makanan->telephone }}</td>
+						<td>{{ $makanan->list_makanan }}</td>
+						<td>
+                            <center>
+							<form action="{{ route('admin.destroy', $makanan->id) }}" method="post">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE') }}
+                                <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
+                            </form>
+                            </center>
+                        </td>
+                    </tr>
+                @endforeach
+                {{-- // end loop --}}
+            </tbody>
+
+        
+</table>
+
+<div class="col-md-12">
+        <h4>PESANAN SNACK BOX</h4>
+        <div class="table-responsive">
+
+                
+              <table id="mytable" class="table table-bordred table-striped">
+                   
+                   <thead>
+				   <th>No</th>
+                   <th>Nama Lengkap</th>
+                    <th>Paket Pesanan</th>
+                     <th>Alamat</th>
+                     <th>Telephone</th>
+                     <th>List Snack</th>
+                       <th>Delete</th>
+                   </thead>
+    <tbody>
+
+                @php(
+                    $no = 1 {{-- buat nomor urut --}}
+                    )
+                {{-- loop all snack --}}
+                @foreach ($snacks as $snack)
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $snack->nama }}</td>
+                        <td>{{ $snack->paket }}</td>
+                        <td>{{ $snack->alamat }}</td>
+                        <td>{{ $snack->telephone }}</td>
+						<td>{{ $snack->list_snack }}</td>
+						<td>
+                            <center>
+								<a href=#  class="btn btn-sm btn-raised btn-danger">Hapus</a>
+                            </center>
+                        </td>
+                    </tr>
+                @endforeach
+                {{-- // end loop --}}
+            </tbody>
+
         
 </table>
 				<div class="mail">

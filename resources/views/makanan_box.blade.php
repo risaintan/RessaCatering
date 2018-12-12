@@ -55,6 +55,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
+							
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <li><a href="{{ route('register') }}">Register</a>
@@ -252,8 +253,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //Stats -->
 <div class="clearfix"></div>
 </div>
-
-<div class="all-comments-info">
+@if (Route::has('login'))
+	@auth
+	<div class="all-comments-info">
 	<h5>PESAN DISINI=</h5>
    <div class="agile-info-wthree-box">
 	   <form method="POST" action="{{route('makanan.pesan')}}">
@@ -272,8 +274,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
 	   </form>
    </div>
-   <div class="clearfix"></div>
-</div>
+  		 <div class="clearfix"></div>
+	</div>
+	@else
+	<div class="clearfix"></div>
+	@endauth
+@endif
 <!--//services-section-->
 	<!-- features -->
 	<div class="features">

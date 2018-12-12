@@ -8,12 +8,31 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Storage;
 use App\User;
 use App\Food;
+use App\Makanan;
+use App\Snack;
 
 class AdminController extends Controller
 {
     public function index(){
-        return view('admin.admin_home');
-       }
+        $makanans = \App\Makanan::all();
+        $snacks = \App\Snack::all();
+
+        return view('admin.admin_home', compact('makanans','snacks'));
+    }
+    
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        $makanans = \App\Makanan::where('id',$id)->first();
+        $makanans->delete();
+    	return redirect()->route('admin.index')->with('alert-success','Data berhasil dihapus!');
+    }
+
 
     public function showmenu(){
         return view('admin.admin_input');

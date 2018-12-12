@@ -241,6 +241,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="clearfix"></div>
 </div>
 
+@if (Route::has('login'))
+	@auth
 <div class="all-comments-info">
 	<h5 >PESAN DISINI=</h5>
    <div class="agile-info-wthree-box">
@@ -258,12 +260,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <input type="submit" value="PESAN">
 		</div>
 		<div class="clearfix"> </div>
-		   
-		   
 	   </form>
    </div>
    <div class="clearfix"></div>
 </div>
+@else
+	<div class="clearfix"></div>
+	@endauth
+@endif
 <!--//services-section-->
 	<!-- features -->
 	<div class="features">

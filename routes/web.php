@@ -20,6 +20,7 @@ Route::post('/snack_box', 'SnackController@storeSnack')->name('snack.pesan');
 Route::get('/admin', 'AdminController@index')->name('admin.index');
 Route::get('/admin/input-menu', 'AdminController@showmenu')->name('admin.input');
 Route::post('/admin/input-menu', 'AdminController@storeFood')->name('admin.store');
+Route::delete('/admin/{id}/destroy', 'AdminController@destroy')->name('admin.destroy');
 
 
 Route::get('/profile', 'ProfileController@index');
