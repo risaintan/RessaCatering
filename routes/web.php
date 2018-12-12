@@ -22,6 +22,9 @@ Route::group(['middleware'=>['auth', 'admin']], function(){
     Route::get('admin/input-menu', 'AdminController@showmenu')->name('admin.input');
 });
 
+Route::get('/profile', 'ProfileController@edit')->name('profile.edit');
+Route::patch('/{id}/profile', 'ProfileController@update')->name('profile.update');
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -53,9 +56,6 @@ Route::get('/gallery', function () {
 });
 
 
-Route::get('/profile', function () {
-    return view('profile');
-});
 
 
 
