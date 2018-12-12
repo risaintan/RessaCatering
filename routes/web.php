@@ -18,18 +18,13 @@ Route::get('/snack_box', 'SnackController@index');
 Route::post('/snack_box', 'SnackController@storeSnack')->name('snack.pesan');
 
 Route::get('/admin', 'AdminController@index')->name('admin.index');
-Route::group(['middleware'=>['auth', 'admin']], function(){
-    Route::get('admin/input-menu', 'AdminController@showmenu')->name('admin.input');
-});
+Route::get('admin/input-menu', 'AdminController@showmenu')->name('admin.input');
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/haha', function () {
-    return view('test');
-});
 
 Route::get('/home', function () {
     return view('beranda');
