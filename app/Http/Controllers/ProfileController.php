@@ -29,7 +29,7 @@ class ProfileController extends Controller
         
     }
 
-    public function update(User $use){
+    public function update(User $user){
 
         $users=Auth::user();
 
