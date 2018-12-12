@@ -21,8 +21,9 @@ Route::get('/admin', 'AdminController@index')->name('admin.index');
 Route::get('admin/input-menu', 'AdminController@showmenu')->name('admin.input');
 
 
-Route::get('/profile', 'ProfileController@edit')->name('profile.edit');
-Route::patch('/{id}/profile', 'ProfileController@update')->name('profile.update');
+Route::get('/profile', 'ProfileController@index');
+Route::get('/profile','ProfileController@show')->name('profile');
+Route::PATCH('/profile/{post}', 'ProfileController@update')->name('profile.update');
 
 Route::get('/', function () {
     return view('welcome');
