@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
 <!--//web-fonts-->
 </head>
+
 <body>
 <!-- banner -->
 <div class="banner" id="home">
@@ -41,11 +42,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			 
 			
-			<div class="contact-bnr-w3-agile">
+			 <div class="contact-bnr-w3-agile">
 			@if (Route::has('login'))
 				<ul>
 					<li>
 					@auth
+					
 					<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -55,6 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
+					<li><a href="{{ url('/profile') }}">Profile</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <li><a href="{{ route('register') }}">Register</a>
@@ -99,7 +102,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item menu__item--current"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
 							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
@@ -123,11 +126,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</nav>	
 	</div>
 	<div class="clearfix"></div>
+	
 		<!-- //navigation -->
+		@if(Session::has('alert-success'))
+                <div class="alert alert-success">
+                    <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
+                </div>
+            @endif
 			</div>
 		</header>
+		<div class="banner-text"> 
+			<h2>Menyediakan Snack box dengan berbagai macam menu!</h2>
+			
+		</div>
 	<!-- //header -->
 	</div>
+	
 <!-- //banner -->
 <!-- special -->
 	<div class="special">
@@ -238,8 +252,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
 			<div class="clearfix"></div>
 	<!-- //Stats -->
+	<br>
+	<br>
 <div class="clearfix"></div>
 </div>
+<div class="col-md-12">
+        <h4>LIST SNACK YANG AVAILABLE</h4>
+        <div class="table-responsive">
+
+                
+              <table id="mytable" class="table table-bordred table-striped">
+                   
+                   <thead>
+				   <th>No</th>
+                   <th>Nama Snack</th>
+                    <th>Kategori</th>
+                   </thead>
+    <tbody>
+
+                @php(
+                    $no = 1 {{-- buat nomor urut --}}
+                    )
+                {{-- loop all kendaraan --}}
+                @foreach ($foods as $food)
+					@if($food->category == "Snack")
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $food->nama }}</td>
+                        <td>{{ $food->category }}</td>
+                    </tr>
+					@endif
+                @endforeach
+                {{-- // end loop --}}
+            </tbody>
+
+        
+</table>
 
 @if (Route::has('login'))
 	@auth

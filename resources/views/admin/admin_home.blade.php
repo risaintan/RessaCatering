@@ -100,7 +100,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item menu__item--current"><a href="{{ route('admin.index') }}" class="menu__link">Home</a></li>
+							@if (Route::has('login'))
+							@auth
 							<li class="menu__item"><a href="{{ route('admin.input') }}" class=" menu__link">Input<br>Menu</a></li>
+							@endauth
+							@endif
 						</ul>
 					</nav>
 				</div>
@@ -111,20 +115,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</header>
 	<!-- //header -->
 	<!-- banner-text -->
+	@if (Route::has('login'))
+	@auth
 		<div class="banner-text"> 
 			<h2>Selamat Datang admin!</h2>
 			<br>
 			<h2>Ada yang bisa dibantu?</h2>
 		</div>
 			 <div class="clearfix"></div>
+		@else
+		<div class="banner-text"> 
+			<h2>Selamat Datang admin!</h2>
+			<br>
+			<h2>LOGIN DULU YUK</h2>
+		</div>
+		@endauth
+	@endif
+
 		<!-- //navigation -->
 	<!-- //header -->
 	<!-- Page Content -->
 	<div class="clearfix"></div>
-	
+	@if(Session::has('alert-success'))
+                <div class="alert alert-success">
+                    <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
+                </div>
+            @endif
 </div>
 
 <!-- mail -->
+@if (Route::has('login'))
+@auth
 <div class="container">
 	<div class="row">
 		
@@ -207,9 +228,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <td>{{ $snack->telephone }}</td>
 						<td>{{ $snack->list_snack }}</td>
 						<td>
-                            <center>
-								<a href=#  class="btn btn-sm btn-raised btn-danger">Hapus</a>
-                            </center>
+						<form action="{{ route('admin.destroy2', $snack->id) }}" method="post">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE') }}
+                                <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
+                            </form>
                         </td>
                     </tr>
                 @endforeach
@@ -218,6 +241,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
         
 </table>
+<div class="col-md-12">
+        <h4>LIST MAKANAN YANG AVAILABLE</h4>
+        <div class="table-responsive">
+
+                
+              <table id="mytable" class="table table-bordred table-striped">
+                   
+                   <thead>
+				   <th>No</th>
+                   <th>Nama Makanan</th>
+                    <th>Kategori</th>
+                       <th>Delete</th>
+                   </thead>
+    <tbody>
+
+                @php(
+                    $no = 1 {{-- buat nomor urut --}}
+                    )
+                {{-- loop all kendaraan --}}
+                @foreach ($foods as $food)
+					@if($food->category == "Makanan")
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $food->nama }}</td>
+                        <td>{{ $food->category }}</td>
+						<td>
+                            <center>
+							<form action="{{ route('admin.delete', $food->id) }}" method="post">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE') }}
+                                <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
+                            </form>
+                            </center>
+                        </td>
+                    </tr>
+					@endif
+                @endforeach
+                {{-- // end loop --}}
+            </tbody>
+
+        
+</table>
+
+@else
+		<div class="clearfix"></div>
+		@endauth
+	@endif
 				<div class="mail">
 					<div class="mail-grid1">
 					<div class="container">	

@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ressa Catering | Home</title>
+<title>Ressa Catering | Input Makanan</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -142,6 +142,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
    </div>
    </div>
 
+<div class="container">
+	<div class="row">
+		
+        
+        
 <!-- mail -->
 				<div class="mail">
 					<div class="mail-grid1">

@@ -9,7 +9,8 @@ use App\Http\Controllers\Controller;
 class SnackController extends Controller
 {
     public function index(){
-     return view('snack_box');
+      $foods = \App\Food::all();
+     return view('snack_box', compact('foods'));
     }
 
     public function storeSnack(){
@@ -20,6 +21,6 @@ class SnackController extends Controller
     		'alamat' => request('alamat'),
             'list_snack' => request('list_snack')
            ]);
-     return view('snack_box');
+           return redirect()->route('snack.index')->with('alert-success', 'Berhasil Memesan Pesanan!'); 
     }
 }

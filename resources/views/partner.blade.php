@@ -41,11 +41,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			 
 			
-			<div class="contact-bnr-w3-agile">
+			 <div class="contact-bnr-w3-agile">
 			@if (Route::has('login'))
 				<ul>
 					<li>
 					@auth
+					
 					<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -55,6 +56,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
+					<li><a href="{{ url('/profile') }}">Profile</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <li><a href="{{ route('register') }}">Register</a>
@@ -116,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item menu__item--current"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href=# class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -129,18 +131,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //header -->
 	<!-- banner-text -->
 		<div class="banner-text"> 
-			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
+			<h2>partner</h2>
 			
 		</div>
 		<!-- gallery -->
+<!--//services-section-->
+<div class="clearfix"></div>
+</div>
+<div class="container">
 
 			<div class="clearfix"></div>
-			<div>				
-									<img src="{{asset('/img/pp.jpg')}}" alt=" " class="center" />
-</div>
-<!--//services-section-->
-<div class="clearfix">
-
+          <a class="d-block mb-4 h-100">
+            <img class="center" src="{{asset('/img/pp.jpg')}}" alt="">
+		  </a>
 </div>
 <!-- mail -->
 				<div class="mail">

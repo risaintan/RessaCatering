@@ -25,6 +25,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="//fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
 <!--//web-fonts-->
 </head>
+
 <body>
 <!-- banner -->
 <div class="banner" id="home">
@@ -41,11 +42,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			 
 			
-			<div class="contact-bnr-w3-agile">
+			 <div class="contact-bnr-w3-agile">
 			@if (Route::has('login'))
 				<ul>
 					<li>
 					@auth
+					
 					<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -55,7 +57,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                             {{ csrf_field() }}
                                         </form>
-							
+					<li><a href="{{ url('/profile') }}">Profile</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
                         <li><a href="{{ route('register') }}">Register</a>
@@ -125,9 +127,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<div class="clearfix"></div>
 		<!-- //navigation -->
+		@if(Session::has('alert-success'))
+                <div class="alert alert-success">
+                    <strong>{{ \Illuminate\Support\Facades\Session::get('alert-success') }}</strong>
+                </div>
+            @endif
 			</div>
 		</header>
 	<!-- //header -->
+	<br>
+	<div class="banner-text"> 
+			<h2>Menyediakan nasi box dengan berbagai macam menu!</h2>
+			
+		</div>
 	</div>
 <!-- //banner -->
 <!-- special -->
@@ -250,9 +262,43 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			
 			<div class="clearfix"></div>
+
 	<!-- //Stats -->
+	<br>
+	<br>
 <div class="clearfix"></div>
-</div>
+<div class="col-md-12">
+        <h4>LIST MAKANAN YANG AVAILABLE</h4>
+        <div class="table-responsive">
+
+                
+              <table id="mytable" class="table table-bordred table-striped">
+                   
+                   <thead>
+				   <th>No</th>
+                   <th>Nama Makanan</th>
+                    <th>Kategori</th>
+                   </thead>
+    <tbody>
+
+                @php(
+                    $no = 1 {{-- buat nomor urut --}}
+                    )
+                {{-- loop all kendaraan --}}
+                @foreach ($foods as $food)
+					@if($food->category == "Makanan")
+                    <tr>
+                        <td>{{ $no++ }}</td>
+                        <td>{{ $food->nama }}</td>
+                        <td>{{ $food->category }}</td>
+                    </tr>
+					@endif
+                @endforeach
+                {{-- // end loop --}}
+            </tbody>
+
+        
+</table>
 @if (Route::has('login'))
 	@auth
 	<div class="all-comments-info">

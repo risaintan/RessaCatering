@@ -16,8 +16,9 @@ class AdminController extends Controller
     public function index(){
         $makanans = \App\Makanan::all();
         $snacks = \App\Snack::all();
+        $foods = \App\Food::all();
 
-        return view('admin.admin_home', compact('makanans','snacks'));
+        return view('admin.admin_home', compact('makanans','snacks','foods'));
     }
     
     /**
@@ -32,10 +33,22 @@ class AdminController extends Controller
         $makanans->delete();
     	return redirect()->route('admin.index')->with('alert-success','Data berhasil dihapus!');
     }
+    public function destroy2($id)
+    {
+        $snacks = \App\Snack::where('id',$id)->first();
+        $snacks->delete();
+    	return redirect()->route('admin.index')->with('alert-success','Data berhasil dihapus!');
+    }
 
 
     public function showmenu(){
         return view('admin.admin_input');
+    }
+    public function delete($id)
+    {
+        $makanans = \App\Food::where('id',$id)->first();
+        $makanans->delete();
+    	return redirect()->route('admin.index')->with('alert-success','Data berhasil dihapus!');
     }
 
     //store food data

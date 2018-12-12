@@ -14,13 +14,16 @@
 Route::get('/makanan_box', 'MakananController@index')->name('makanan.index');
 Route::post('/makanan_box', 'MakananController@storeMakanan')->name('makanan.pesan');
 
-Route::get('/snack_box', 'SnackController@index');
+Route::get('/snack_box', 'SnackController@index')->name('snack.index');
 Route::post('/snack_box', 'SnackController@storeSnack')->name('snack.pesan');
 
 Route::get('/admin', 'AdminController@index')->name('admin.index');
 Route::get('/admin/input-menu', 'AdminController@showmenu')->name('admin.input');
 Route::post('/admin/input-menu', 'AdminController@storeFood')->name('admin.store');
+Route::delete('/admin/input-menu/{id}/destroy', 'AdminController@delete')->name('admin.delete');
 Route::delete('/admin/{id}/destroy', 'AdminController@destroy')->name('admin.destroy');
+Route::delete('/admin/{id}/destroy2', 'AdminController@destroy2')->name('admin.destroy2');
+
 
 
 Route::get('/profile', 'ProfileController@index');
