@@ -4528,3 +4528,9 @@ h2.typoh2{
 
 }
 /*--responsive--*/
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
