@@ -619,7 +619,8 @@ label.icon-search span {
 }
 /*-- //modal --*/
 .mail-grid1 ,.ab-w3l-about,.agile-blogs,.agile-about-top ,.features,.special,.gallery,.w3_content_agilleinfo_inner,.team{
-	padding:30px 0px;
+	padding:70px 0px;
+	margin: 100px;
 }
 /*-- services --*/
 h5.title-w3 {
@@ -706,6 +707,9 @@ div#gallery {
 }
 /*-- gallery --*/
 /*-- about --*/
+.about{
+	height: 80vh;
+}
 .ab-w3l-about {
     text-align: center;
 		height: 80vh;
@@ -2773,7 +2777,7 @@ h2.typoh2{
 		letter-spacing: 0.5px;
 	}
 	.ab-w3-agile-img {
-		min-height: 701px;
+		min-height: 100vh;
 	}
 	.agitsworkw3ls-grid h3 {
 		font-size: 1.6em!important;
