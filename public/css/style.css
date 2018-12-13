@@ -4534,3 +4534,10 @@ h2.typoh2{
 	margin-right: auto;
 	width: 50%;
   }
+  .centerin {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	widows: 800px; /* you can use % */
+	height: auto;
+  }
