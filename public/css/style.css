@@ -763,8 +763,9 @@ padding: 0;
 
 }
 .ab-w3-agile-info-text {
-    padding: 3em 0em 2em;
+    padding: 2em 0em;
     background: #111111;
+		font-size: 15px;
 }
 .ab-w3-agile-info-text  h3 span,.agitsworkw3ls-grid h3 span,.mail-grid1-form h3 span{
 	color:#fff;
@@ -2765,7 +2766,7 @@ h2.typoh2{
 	}
 	.ab-w3-agile-info-text h3 {
 		margin-bottom: 0.5em!important;
-		font-size: 1.6em!important;
+		font-size: 2.3em!important;
 	}
 	.ab-w3-agile-part h4 {
 		font-size: 1.3em;
