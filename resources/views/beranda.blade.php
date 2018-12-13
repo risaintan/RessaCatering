@@ -11,13 +11,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Delish Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Delish Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!--web-fonts-->
 <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -35,18 +35,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 					<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>					
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
 
-			 
-			
+
+
 			<div class="contact-bnr-w3-agile">
 			@if (Route::has('login'))
 				<ul>
 					<li>
 					@auth
-					
+
 					<a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
@@ -63,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     @endauth
 					</li>
 			@endif
-					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>	
+					<li><i class="fa fa-phone" aria-hidden="true"></i>+62 817-177-827</li>
 					<li>
 						<div class="search">
 							<input class="search_box" type="checkbox" id="search_box">
@@ -122,7 +122,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
 					</nav>
 				</div>
-			</nav>	
+			</nav>
 	</div>
 	<div class="clearfix"></div>
 		<!-- //navigation -->
@@ -130,52 +130,52 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</header>
 	<!-- //header -->
 	<!-- banner-text -->
-		<div class="banner-text"> 
+		<div class="banner-text">
 			<h2>MENGUTAMAKAN MUTU, RASA DAN PELAYANAN!</h2>
-			
+
 		</div>
 		<!-- gallery -->
 	<div class="gallery-ban" id="gallery">
 	<div class="container">
-				<ul id="flexiselDemo1">			
+				<ul id="flexiselDemo1">
 					<li>
 						<div class="wthree_testimonials_grid_main">
-							
+
 									<img src="{{asset('/img/p1.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 					<li>
 						<div class="wthree_testimonials_grid_main">
-							
+
 									<img src="{{asset('/img/p2.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 					<li>
 						<div class="wthree_testimonials_grid_main">
-						
+
 									<img src="{{asset('/img/p3.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 					<li>
 						<div class="wthree_testimonials_grid_main">
-						
+
 									<img src="{{asset('/img/p6.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 					<li>
 						<div class="wthree_testimonials_grid_main">
-						
+
 									<img src="{{asset('/img/p4.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 					<li>
 						<div class="wthree_testimonials_grid_main">
-						
+
 									<img src="{{asset('/img/p5.jpg')}}" alt=" " class="img-responsive" />
 						</div>
 					</li>
 				</ul>
-				
+
 	</div>
 	</div>
 	<!-- //gallery -->
@@ -185,41 +185,41 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		 <h3 class="tittle-w3"><span>Welcome to</span> Ressa Catering</h3>
 			<p class="para-w3l">Kami menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda..
-Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya.
-MUTU DAN RASA adalah motto kami...
-Kami siap melayani dan memenuhi pesanan anda - kepuasan anda adalah tujuan kami, percayakanlah acara anda pada kami..
-</p>
+			Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya.
+			MUTU DAN RASA adalah motto kami...
+			Kami siap melayani dan memenuhi pesanan anda - kepuasan anda adalah tujuan kami, percayakanlah acara anda pada kami..
+			</p>
 	</div>
 </div>
-	<div class="about" id="about">
-      <div class="col-md-6 ab-w3-agile-info">
-	   <div class="ab-w3-agile-info-text">
-	     <h3 class="tittle-w3">About<span> Us</span></h3>
-		 <p class="para-w3l">Awalnya dari belajar membuat kue kecil-kecilan untuk konsumsi rapat di kantor tertentu berupa konsumsi snack dan lama kelamaan menumbuhkan kepercayaan yang semakin meluas kemudian mencoba melayani pesanan konsumsi makan siang dan Alhamdulillah ternyata dapat memikat langganan yang semakin banyak. Sehingga atas dasar inilah akhirnya tertarik untuk mengembangkan usaha jasa boga berupa layanan catering.
+<div class="about" id="about">
+  <div class="col-md-6 ab-w3-agile-info">
+	  <div class="ab-w3-agile-info-text">
+	    <h3 class="tittle-w3">About<span> Us</span></h3>
+			<p class="para-w3l">Awalnya dari belajar membuat kue kecil-kecilan untuk konsumsi rapat di kantor tertentu berupa konsumsi snack dan lama kelamaan menumbuhkan kepercayaan yang semakin meluas kemudian mencoba melayani pesanan konsumsi makan siang dan Alhamdulillah ternyata dapat memikat langganan yang semakin banyak. Sehingga atas dasar inilah akhirnya tertarik untuk mengembangkan usaha jasa boga berupa layanan catering.
 
-Atas persetujuan dan dukungan keluarga maka pada tahun 1984 dibentuklah layanan catering dengan nama RESSA Catering kependekan dari Restu Suami dan Anak.
+			Atas persetujuan dan dukungan keluarga maka pada tahun 1984 dibentuklah layanan catering dengan nama RESSA Catering kependekan dari Restu Suami dan Anak.
 
-RESSA Catering menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda.
+			RESSA Catering menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda.
 
-Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
+			Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 			<div class="about-read">
-			</div>
+				</div>
 		  </div>
 		  <div class="ab-w3-agile-inner">
-	       <div class="col-md-6 ab-w3-agile-part">
-				<h4>Wedding & Party Service Organizer</h4>
-	       </div>
+	    	<div class="col-md-6 ab-w3-agile-part">
+					<h4>Wedding & Party Service Organizer</h4>
+	      </div>
 			<div class="col-md-6 ab-w3-agile-part two">
-			<h4>Catering (Makanan Box & Snack Box)</h4>
-	       </div>
-			<div class="clearfix"></div>		   
-	  </div>	
-   </div>	 	  
-	  <div class="col-md-6 ab-w3-agile-img">
-	     
+				<h4>Catering (Makanan Box & Snack Box)</h4>
+	    </div>
+			<div class="clearfix"></div>
 	  </div>
- 
-		<div class="clearfix"></div>
+	</div>
+<div class="col-md-6 ab-w3-agile-img">
+
+</div>
+
+<div class="clearfix"></div>
 </div>
 <!--blogs-->
 <div class="agile-blogs" id="blogs">
@@ -230,7 +230,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 				<div class="text-w3">
 					<h3 class="tittle-w3 sub-head"><span>Contoh Makanan Box</span></h3>
 					<p class="para-w3l">Menyediakan menu nasi box dengan berbagai macam lauk.</p>
-				
+
 				</div>
 				<div class="clearfix"></div>
 		</div>
@@ -239,7 +239,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 				<div class="text-w3l">
 					<h3 class="tittle-w3 sub-head"><span>Contoh Pelaminan</span></h3>
 					<p class="para-w3l">Menyediakan layanan perkawinan dari mulai pelaminan sampai catering. Serta rekomendasi tempat dan salon rekanan.</p>
-						
+
 				</div>
 				<div class="clearfix"></div>
 		</div>
@@ -247,7 +247,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 </div>
 <!--//blogs-->
 
-	
+
 				<!--services-section-->
 <div class="services-w3layouts" id="services">
 	<!-- //Stats -->
@@ -312,7 +312,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 						</li>
 					 </ul>
 			   </div>
-				
+
 			</div>
 			<div class="clearfix"></div>
 	<!-- //Stats -->
@@ -323,7 +323,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 <!-- mail -->
 				<div class="mail">
 					<div class="mail-grid1">
-					<div class="container">	
+					<div class="container">
 						<h3 class="tittle-w3">Contact <span>Info</span></h3>
 							<div class="col-md-4 mail-agileits-w3layouts">
 								<i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
@@ -366,25 +366,25 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 									visibleItems:4,
 									animationSpeed: 1000,
 									autoPlay: true,
-									autoPlaySpeed: 3000,    		
+									autoPlaySpeed: 3000,
 									pauseOnHover: true,
 									enableResponsiveBreakpoints: true,
-									responsiveBreakpoints: { 
-										portrait: { 
+									responsiveBreakpoints: {
+										portrait: {
 											changePoint:480,
 											visibleItems: 1
-										}, 
-										landscape: { 
+										},
+										landscape: {
 											changePoint:640,
 											visibleItems:2
 										},
-										tablet: { 
+										tablet: {
 											changePoint:768,
 											visibleItems: 3
 										}
 									}
 								});
-								
+
 							});
 					</script>
 					<script type="text/javascript" src="{{asset('/js/jquery.flexisel.js')}}"></script>
@@ -392,14 +392,14 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 <!-- Dropdown-Menu-JavaScript -->
 			<script>
 				$(document).ready(function(){
-					$(".dropdown").hover(            
+					$(".dropdown").hover(
 						function() {
 							$('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-							$(this).toggleClass('open');        
+							$(this).toggleClass('open');
 						},
 						function() {
 							$('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-							$(this).toggleClass('open');       
+							$(this).toggleClass('open');
 						}
 					);
 				});
@@ -419,7 +419,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 <script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
@@ -434,12 +434,12 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 				containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
 				scrollSpeed: 1200,
-				easingType: 'linear' 
+				easingType: 'linear'
 				};
 			*/
-								
+
 			$().UItoTop({ easingType: 'easeOutQuart' });
-								
+
 			});
 	</script>
 <!-- //here ends scrolling icon -->
@@ -447,7 +447,7 @@ Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya</p>
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
 <!-- script-for-menu -->
-					<script>					
+					<script>
 						$("span.menu").click(function(){
 							$(".top-nav ul").slideToggle("slow" , function(){
 							});
