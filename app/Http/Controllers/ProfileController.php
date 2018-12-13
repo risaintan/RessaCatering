@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Makanan;
+use App\Snack;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -41,5 +43,27 @@ class ProfileController extends Controller
         return redirect()->route('profile')->with('alert-success','Data berhasil diubah!');
     }
     
+    public function pesanan()
+    {
+        $data = Auth::user();
+        $makanans = \App\Makanan::all();
+        $snacks = \App\Snack::all();
+        $foods = \App\Food::all();
+
+        return view('pesananprofile', compact('makanans','snacks','foods', 'data'));
+    }
+    public function destroy($id)
+    {
+        $makanans = \App\Makanan::where('id',$id)->first();
+        $makanans->delete();
+    	return redirect()->route('profile.pesanan')->with('alert-success','Data berhasil dihapus!');
+    }
+    public function destroy2($id)
+    {
+        $snacks = \App\Snack::where('id',$id)->first();
+        $snacks->delete();
+    	return redirect()->route('profile.pesanan')->with('alert-success','Data berhasil dihapus!');
+    }
+
     
 }

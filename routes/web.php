@@ -25,10 +25,12 @@ Route::delete('/admin/{id}/destroy', 'AdminController@destroy')->name('admin.des
 Route::delete('/admin/{id}/destroy2', 'AdminController@destroy2')->name('admin.destroy2');
 
 
-
-
 Route::get('/profile','ProfileController@show')->name('profile');
+Route::get('/profile_pesanan','ProfileController@pesanan')->name('profile.pesanan');
 Route::PATCH('/profile', 'ProfileController@update')->name('profile.update');
+Route::delete('/profile/{id}/destroy', 'ProfileController@destroy')->name('profile.destroy');
+Route::delete('/profile/{id}/destroy2', 'ProfileController@destroy2')->name('profile.destroy2');
+
 
 Route::get('/', function () {
     return view('beranda');

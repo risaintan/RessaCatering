@@ -223,6 +223,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </div>
                       </div>
               	</form>
+				  <form action="{{ route('profile.pesanan') }}">
+				  			<div class="col-xs-12">
+                                <br>
+                              	<button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Pesananku</button>
+                               	
+                            </div>
+					</form>
               
              
               
