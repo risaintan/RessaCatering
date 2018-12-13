@@ -313,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		   <input type="text" name="alamat" placeholder="Alamat..">	
 		 </div>
 		  <div class="col-md-6 form-info">
-		   
+		  <input type="text" name="tanggal_pesanan" placeholder="Hari, dd-mm-yyyy..">
 		   <textarea name="list_makanan" placeholder="Pilihan menu-menu.."></textarea>
 		   <input type="submit" value="PESAN">
 		</div>

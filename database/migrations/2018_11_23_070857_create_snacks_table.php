@@ -20,6 +20,7 @@ class CreateSnacksTable extends Migration
             $table->string('telephone');
             $table->text('alamat');
             $table->text('list_snack');
+            $table->text('tanggal_pesanan');
             $table->timestamps();
         });
     }

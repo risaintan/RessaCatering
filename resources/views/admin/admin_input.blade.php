@@ -115,7 +115,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="banner-text"> 
 			<h2>Selamat Datang admin!</h2>
 			<br>
-			<h2>Ada yang bisa dibantu?</h2>
+			<h2>Ada menu apa saja hari ini?</h2>
 			</div>
 	
 	

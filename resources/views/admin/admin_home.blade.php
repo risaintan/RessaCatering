@@ -164,6 +164,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                      <th>Alamat</th>
                      <th>Telephone</th>
                      <th>List Makanan</th>
+					 <th>Tanggal Pesanan</th>
+					 <th>Untuk Tanggal</th>
                        <th>Delete</th>
                    </thead>
     <tbody>
@@ -180,6 +182,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <td>{{ $makanan->alamat }}</td>
                         <td>{{ $makanan->telephone }}</td>
 						<td>{{ $makanan->list_makanan }}</td>
+						<td>{{ $makanan->tanggal_pesanan }}</td>
+						<td>{{ $makanan->created_at }}</td>
 						<td>
                             <center>
 							<form action="{{ route('admin.destroy', $makanan->id) }}" method="post">
@@ -211,6 +215,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                      <th>Alamat</th>
                      <th>Telephone</th>
                      <th>List Snack</th>
+					 <th>Tanggal Pesanan</th>
+					 <th>Untuk Tanggal</th>
                        <th>Delete</th>
                    </thead>
     <tbody>
@@ -227,6 +233,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <td>{{ $snack->alamat }}</td>
                         <td>{{ $snack->telephone }}</td>
 						<td>{{ $snack->list_snack }}</td>
+						<td>{{ $snack->tanggal_pesanan }}</td>
+						<td>{{ $snack->created_at }}</td>
 						<td>
 						<form action="{{ route('admin.destroy2', $snack->id) }}" method="post">
                                 {{ csrf_field() }}

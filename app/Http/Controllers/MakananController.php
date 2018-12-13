@@ -20,7 +20,8 @@ class MakananController extends Controller
     		'paket' => request('paket'),
     		'telephone' => request('telephone'),
     		'alamat' => request('alamat'),
-            'list_makanan' => request('list_makanan')
+            'list_makanan' => request('list_makanan'),
+            'tanggal_pesanan' => request('tanggal_pesanan')
            ]);
            return redirect()->route('makanan.index')->with('alert-success', 'Berhasil Memesan Pesanan!');   
     }

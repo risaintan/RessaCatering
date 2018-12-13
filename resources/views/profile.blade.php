@@ -9,12 +9,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <head>
 <title>Ressa Catering | Profile</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-		<meta name="author" content="">
-
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -68,7 +62,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 			 
-			<!--
+
 			<div class="contact-bnr-w3-agile">
 			@if (Route::has('login'))
 				<ul>
@@ -110,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="container">
 
 			<!-- navigation -->
-	<!--		<div class="w3_navigation">
+			<div class="w3_navigation">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header navbar-left">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -119,16 +113,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<div class="w3_navigation_pos">
-						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
-					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-			<!--	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+				<br>
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
 							<li class="menu__item"><a href="{{ url('/home') }}" class="menu__link">Home</a></li>
-							<li class="menu__item menu__item--current"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
+							<li class="menu__item"><a href="{{ url('/gallery') }}" class=" menu__link">Gallery</a></li>
+							<li class="dropdown menu__item">
 							<li class="dropdown menu__item">
 						<a href="#" class="dropdown-toggle menu__link"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paket<span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -153,47 +146,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="clearfix"></div> -->
 		<!-- //navigation -->
 			</div>
+			
 		</header>
 	<!-- //header -->
 	<!-- banner-text -->
 
 	
 
-
-    <!-- Navigation 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
--->
 	<!-- Page Content -->
 	<div class="clearfix"></div>
+	
 </div>
-  
 
-     
+</div>
+
+
 <!------ Include the above in your HEAD tag ---------->
 
 
@@ -202,8 +169,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <hr>
 <div class="container bootstrap snippet">
     <div class="row">
-  		<div class="col-sm-10"><h1>User name</h1></div>
-    	<div class="col-sm-2"><a href="{{ url('/home') }}" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
+  		<div class="col-sm-10"><h1>PROFILE</h1></div>
     </div>
     <div class="row">
   		<div class="col-sm-3"><!--left col-->
@@ -214,25 +180,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <h6>Upload a different photo...</h6>
         <input type="file" class="text-center center-block file-upload">
       </div> </hr> <br>
-
-               
-          
-          
-          
-          <ul class="list-group">
-            <li class="list-group-item text-muted">Activity <i class="fa fa-dashboard fa-1x"></i></li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Shares</strong></span> 125</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Likes</strong></span> 13</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Posts</strong></span> 37</li>
-            <li class="list-group-item text-right"><span class="pull-left"><strong>Followers</strong></span> 78</li>
-          </ul> 
-               
-          <div class="panel panel-default">
-            <div class="panel-heading">Social Media</div>
-            <div class="panel-body">
-            	<i class="fa fa-facebook fa-2x"></i> <i class="fa fa-github fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-pinterest fa-2x"></i> <i class="fa fa-google-plus fa-2x"></i>
-            </div>
-          </div>
           
         </div><!--/col-3-->
     	<div class="col-sm-9">

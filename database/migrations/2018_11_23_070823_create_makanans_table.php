@@ -20,6 +20,7 @@ class CreateMakanansTable extends Migration
             $table->string('telephone');
             $table->text('alamat');
             $table->text('list_makanan');
+            $table->text('tanggal_pesanan');
             $table->timestamps();
         });
     }
