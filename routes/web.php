@@ -26,12 +26,12 @@ Route::delete('/admin/{id}/destroy2', 'AdminController@destroy2')->name('admin.d
 
 
 
-Route::get('/profile', 'ProfileController@index');
+
 Route::get('/profile','ProfileController@show')->name('profile');
-Route::PATCH('/profile/{post}', 'ProfileController@update')->name('profile.update');
+Route::PATCH('/profile', 'ProfileController@update')->name('profile.update');
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('beranda');
 });
 
 

@@ -191,26 +191,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
               
           <div class="tab-content">
             <div class="tab-pane active" id="home">
-                <hr>
-                  <form class="form" action="{{ route('profile.update', '$user->id')}}" method="post" >
+                  <form class="form" action="{{route('profile.update')}}" method="post" >
 					{{ csrf_field() }}
 					{{ method_field('PATCH') }}
 					<div class="form-group">
-                          <div class="col-xs-6">
+                          <div class="col-xs-12">
                               <label for="name"><h4> Nama</h4></label>
-                              <input type="text" class="form-control" value="{{$users->name}}" name="first_name" id="first_name" placeholder="name" title="enter your first name if any.">
+                              <input type="text" class="form-control" value="{{$users->name}}" name="name" id="name" placeholder="name" title="enter your first name if any.">
                           </div>
                       </div>
-                     
+                     <br>
                       <div class="form-group">
-                          <div class="col-xs-6">
-                             <label for="mobile"><h4>Mobile</h4></label>
-                              <input type="text" class="form-control" value="{{$users->no_telp}}" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
+                          <div class="col-xs-12">
+                             <label for="no_telp"><h4>Mobile</h4></label>
+                              <input type="text" class="form-control" value="{{$users->no_telp}}" name="no_telp" id="no_telp" placeholder="enter mobile number" title="enter your mobile number if any.">
                           </div>
                       </div>
+					  <br>
                       <div class="form-group">
-                          
-                          <div class="col-xs-6">
+                          <div class="col-xs-12">
                               <label for="email"><h4>Email</h4></label>
                               <input type="email" class="form-control" value="{{$users->email}}" name="email" id="email" placeholder="you@email.com" title="enter your email.">
                           </div>
@@ -225,7 +224,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       </div>
               	</form>
               
-              <hr>
+             
               
              
                
