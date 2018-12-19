@@ -222,6 +222,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="clearfix"></div>
 </div>
 <!--blogs-->
+<br>
+<br>
 <div class="agile-blogs" id="blogs">
 	<div class="container">
 	<h3 class="tittle-w3"><span>Pelayanan </span>Kami</h3>

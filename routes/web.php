@@ -30,6 +30,10 @@ Route::get('/profile_pesanan','ProfileController@pesanan')->name('profile.pesana
 Route::PATCH('/profile', 'ProfileController@update')->name('profile.update');
 Route::delete('/profile/{id}/destroy', 'ProfileController@destroy')->name('profile.destroy');
 Route::delete('/profile/{id}/destroy2', 'ProfileController@destroy2')->name('profile.destroy2');
+Route::get('/profile/{id}/updatefood', 'ProfileController@showpesanan')->name('makanan.update');
+Route::PATCH('/profile/{id}/updatefood', 'ProfileController@updatefood')->name('food.update');
+Route::get('/profile/{id}/updatesnack', 'ProfileController@showsnack')->name('snack.tampil');
+Route::PATCH('/profile/{id}/updatesnack', 'ProfileController@updatesnack')->name('snack.update');
 
 
 Route::get('/', function () {

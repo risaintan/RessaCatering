@@ -20,6 +20,7 @@ class SnackController extends Controller
     		'telephone' => request('telephone'),
     		'alamat' => request('alamat'),
             'list_snack' => request('list_snack'),
+            'kuantitas' => request('kuantitas'),
             'tanggal_pesanan' => request('tanggal_pesanan')
            ]);
            return redirect()->route('snack.index')->with('alert-success', 'Berhasil Memesan Pesanan!'); 

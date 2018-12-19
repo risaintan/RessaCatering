@@ -156,7 +156,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 agileits-special-info">
 						<h4>Bistik Gading</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur</p>
+						<p>Menu Utama Daging Favorit.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -167,7 +167,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 agileits-special-info">
 						<h4>Cap Cay</h4>
-						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
+						<p>Menu Sayuran Yang Paling Favorit dan banyak dipesan.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -178,14 +178,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 agileits-special-info">
 						<h4>Sambal Goreng</h4>
-						<p>Donec nibh enim, sodales laoreet</p>
+						<p>Menu Favorit Berbagai Macam.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
 						<h4>Udang Tempura</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur</p>
+						<p>Menu Favorit Paling Banyak Dipesan.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img2">
 						<div class="w3ls-special-text effect-1">
@@ -195,8 +195,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
-						<h4>Ayam Goreng</h4>
-						<p>Maecenas ac purus. Lorem ipsum dolor</p>
+						<h4>Ayam Goreng Mentega</h4>
+						<p>Makanan Favorit.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img3">
 						<div class="w3ls-special-text effect-1">
@@ -207,7 +207,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
 						<h4>Kakap Asam Manis</h4>
-						<p>Donec nibh enim, sodales laoreet sit</p>
+						<p>Menu Utama Ikan Favorit.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-img4">
 						<div class="w3ls-special-text effect-1">
@@ -224,36 +224,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services-w3layouts" id="services">
 	<!-- //Stats -->
 			<div class="col-md-12 agitsworkw3ls-grid ">
-			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
-			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
+			<h3 class="tittle-w3"><span>OUR</span> MAIN <span> &</span> DELICIOUS<span> MENU</span></h3>
+			<p class="para-w3l">Silahkan memilih menu berdasarkan tipe dibawah ini. Untuk yang bertanda OPTIONAL tergantung pada menu makanan apa yang ada pada hari itu/dapat diganti. Untuk keselarasan menu anda dapat mengcontact kami via telephone atau pihak kami yang akan menghubungi anda. Harap mengisi di tabel pesanan bagian pilihan menu-menu yang anda pilih dari OPTIONAL menu. </p>
 			<div class="services-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket</span> A</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
+				<li><i  aria-hidden="true"></i>MENU 4 LAUK(Menu Utama : Ayam)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Nasi Putih</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Sambel Grng Buncis/Orak-arik Sayuran(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Ayam Goreng Mentega/Rujak(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Sambal Grng Ati/Printil(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Mie Goreng/Perkedel/Oreg Tempe(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kerupuk Udang</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Pisang</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Aqua</li>
+					<li><i  aria-hidden="true"></i>HARGA RP 27.500,-</li>
 				</ul>
 				</div>
 				<div class="services-middle-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket</span> B</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
+				<li><i  aria-hidden="true"></i>MENU 4 LAUK(Menu Utama : AYam & Daging)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Nasi Putih</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Cap Cay/Cah Kailan(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Ayam Grng Rujak/Mentega/Sate(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Bistik Daging/Sambal Goreng Daging(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kakap Asam Manis/Udang Tempura(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kerupuk Udang</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Pisang</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Aqua</li>
+					<li><i  aria-hidden="true"></i>HARGA RP 30.500,-</li>
 				</ul>
 				</div>
 				<div class="services-middle-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket</span> C</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
+				<li><i aria-hidden="true"></i>MENU 5 LAUK</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Nasi Putih</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Cap Cay/Cah Kailan(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Ayam Paprika/Rujak/Panggang(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Krengseng Daging/Bistik Daging(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Sambel Grng Printil/Ati Sapi/Ati Ampela(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kakap Asam Manis/Udang Tempura(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kerupuk</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Pisang</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Aqua</li>
+					<li><i aria-hidden="true"></i>(Menu dapat dikurangi 1 dan diganti puding)</li>
+					<li><i  aria-hidden="true"></i>HARGA RP 35.000,-</li>
 				</ul>
 				</div>
 
@@ -307,13 +324,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   <form method="POST" action="{{route('makanan.pesan')}}">
 	   {{csrf_field()}}
 		  <div class="col-md-6 form-info">
-		  <input type="text" name="nama" placeholder="Nama...">
+		  <input type="text" name="nama" placeholder="Nama sesuai profile...">
 		   <input type="text" name="paket" placeholder="Pilih Paket.." >			           					   
 		   <input type="text" name="telephone" placeholder="Phone..">
 		   <input type="text" name="alamat" placeholder="Alamat..">	
 		 </div>
 		  <div class="col-md-6 form-info">
 		  <input type="text" name="tanggal_pesanan" placeholder="Hari, dd-mm-yyyy..">
+		  <input type="text" name="kuantitas" placeholder="Berapa banyak kotak....">
 		   <textarea name="list_makanan" placeholder="Pilihan menu-menu.."></textarea>
 		   <input type="submit" value="PESAN">
 		</div>
@@ -345,7 +363,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Minimal Pemesanan 100 Box, jika kurang dari itu menunggu konfirmasi via telephone/SMS dari kami. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -356,7 +374,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Minimal Pemesanan 100 untuk pengantaran daerah Jabodetabek. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -367,7 +385,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Pelunasan pembayaran maksimal 1 minggu sebelum tanggal pesanan. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -378,7 +396,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Menu dan harga dapat berubah tanpa pemberitahuan. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>

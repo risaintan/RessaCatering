@@ -151,7 +151,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="special-grids">
 				<div class="col-md-4 w3l-special-grid">
-					<div class="col-md-6 w3ls-special-img">
+					<div class="col-md-6 w3ls-special-imgg">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -162,7 +162,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4 w3l-special-grid">
-					<div class="col-md-6 w3ls-special-img wthree-img">
+					<div class="col-md-6 w3ls-special-img wthree-imgg">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -173,7 +173,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4 w3l-special-grid">
-					<div class="col-md-6 w3ls-special-img wthree-img1">
+					<div class="col-md-6 w3ls-special-img wthree-imgg1">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -188,7 +188,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Bika Ijo Kenari</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur</p>
 					</div>
-					<div class="col-md-6 w3ls-special-img wthree-img2">
+					<div class="col-md-6 w3ls-special-img wthree-imgg2">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -199,7 +199,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Sus Cocktail</h4>
 						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
 					</div>
-					<div class="col-md-6 w3ls-special-img wthree-img3">
+					<div class="col-md-6 w3ls-special-img wthree-imgg3">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -210,7 +210,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h4>Lemper</h4>
 						<p>Donec nibh enim, sodales laoreet sit amet, tincidunt</p>
 					</div>
-					<div class="col-md-6 w3ls-special-img wthree-img4">
+					<div class="col-md-6 w3ls-special-img wthree-imgg4">
 						<div class="w3ls-special-text effect-1">
 						</div>
 					</div>
@@ -225,8 +225,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="services-w3layouts" id="services">
 	<!-- //Stats -->
 			<div class="col-md-12 agitsworkw3ls-grid ">
-			<h3 class="tittle-w3"><span>Always</span> fresh <span>& </span>delicious <span>food</span></h3>
-			<p class="para-w3l">Gourmet is a full-service catering and event planning company dedicated to providing you with exquisite cuisine and fantastic customer service. We offer a variety of menus and design options, for everything from box lunches to full-service plated dinners.</p>
+			<h3 class="tittle-w3"><span>OUR</span> SWEET <span>& </span>FANCY <span>SNACK</span></h3>
+			<p class="para-w3l">Silahkan memilih menu berdasarkan tipe dibawah ini. Untuk yang bertanda OPTIONAL tergantung pada menu snack apa yang ada pada hari itu/dapat diganti. Untuk keselarasan menu anda dapat mengcontact kami via telephone atau pihak kami yang akan menghubungi anda. Harap mengisi di tabel pesanan bagian pilihan menu-menu yang anda pilih dari OPTIONAL menu. </p>
 			<div class="blabla-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket </span>A</h3>
 				<ul>
@@ -297,13 +297,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	   <form form method="POST" action="{{route('snack.pesan')}}">
 	   {{csrf_field()}}
 		  <div class="col-md-6 form-info">
-		  <input type="text" name="nama" placeholder="Nama..." required="">
+		  <input type="text" name="nama" placeholder="Nama sesuai profile..." required="">
 		   <input type="text" name="paket" placeholder="Pilih Paket.." required="">			           					   
 		   <input type="text" name="telephone" placeholder="Phone.." required="">
 		   <input type="text" name="alamat" placeholder="Alamat.." required="">	
 		 </div>
 		  <div class="col-md-6 form-info">
 		  <input type="text" name="tanggal_pesanan" placeholder="Hari, dd-mm-yyyy..">
+		  <input type="text" name="kuantitas" placeholder="Berapa banyak pesanan.." required="">
 		   <textarea name="list_snack" placeholder="Pilihan menu-menu.." required=""></textarea>
 		   <input type="submit" value="PESAN">
 		</div>

@@ -21,6 +21,7 @@ class MakananController extends Controller
     		'telephone' => request('telephone'),
     		'alamat' => request('alamat'),
             'list_makanan' => request('list_makanan'),
+            'kuantitas' => request('kuantitas'),
             'tanggal_pesanan' => request('tanggal_pesanan')
            ]);
            return redirect()->route('makanan.index')->with('alert-success', 'Berhasil Memesan Pesanan!');   

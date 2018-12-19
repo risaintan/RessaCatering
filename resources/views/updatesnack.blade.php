@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Ressa Catering | Pesanan</title>
+<title>Ressa Catering | Edit Snack</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -78,7 +78,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="clearfix"></div>
 		</div>
-        <div class="container">
+		<header>
+			<div class="container">
 
 			<!-- navigation -->
 			<div class="w3_navigation">
@@ -91,166 +92,60 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 					</button>
 					<div class="w3_navigation_pos">
-						<h1><a href="{{ route('profile') }}"><span>R</span>essa <span>C</span>atering</a></h1>
+						<h1><a href="{{ url('/home') }}"><span>R</span>essa <span>C</span>atering</a></h1>
 					</div>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<nav class="menu menu--miranda">
 						<ul class="nav navbar-nav menu__list">
-							<li class="menu__item"><a href="{{ url('/profile') }}" class="menu__link">Back</a></li>
+							<li class="menu__item"><a href="{{ url('/profile_pesanan') }}" class="menu__link">Back</a></li>
 					</nav>
 				</div>
 			</nav>	
-	    </div>
-		<header>
-			<div class="container">
+	</div>
 	<div class="clearfix"></div>
 		<!-- //navigation -->
+			</div>
 		</header>
-        <div class="banner-text"> 
-			<h2>PESANANKU!</h2>
-			<br>
-			<h2>Aku pesan apa hari ini?</h2>
-		</div>
-        </div>
-</div>
 	<!-- //header -->
 	<!-- banner-text -->
-			 <div class="clearfix"></div>
+		<div class="banner-text"> 
+			<h2>Edit Pesananmu Disini!</h2>
+			</div>
 
+            <div class="clearfix"></div>
 		<!-- //navigation -->
+			</div>
+		</header>
 	<!-- //header -->
 	<!-- Page Content -->
-	
-
+	<div class="all-comments-info">
+	<h5>PESAN DISINI=</h5>
+   <div class="agile-info-wthree-box">
+	   <form method="POST" action="{{ route('snack.update', $snacks->id) }}">
+	   {{csrf_field()}}
+	   {{ method_field('PATCH') }}
+		  <div class="col-md-6 form-info">
+		  <input type="text" name="nama" placeholder="Phone.." value="{{$snacks->nama}}">	
+		  <input type="text" name="paket" placeholder="Phone.." value="{{$snacks->paket}}">			           					   
+		   <input type="text" name="telephone" placeholder="Phone.." value="{{$snacks->telephone}}">
+		   <input type="text" name="alamat" placeholder="Alamat.." value="{{$snacks->alamat}}">	
+		 </div>
+		  <div class="col-md-6 form-info">
+		  <input type="text" name="tanggal_pesanan" placeholder="Hari, dd-mm-yyyy.." value="{{$snacks->tanggal_pesanan}}">
+		   <input type="text" name="list_snack" placeholder="Pilihan menu-menu.." value="{{$snacks->list_snack}}">
+		   <input type="submit" value="SAVE" onclick="return confirm('Yakin ingin mengedit data?')>
+		</div>
+	<div class="clearfix"> </div>
+	   </form>
+   </div>
+  		 <div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+        
+        
 <!-- mail -->
-
-<div class="container">
-	<div class="row">
-		
-        
-        <div class="col-md-12">
-        <h4>PESANAN MAKANAN BOX</h4>
-        <div class="table-responsive">
-
-                
-              <table id="mytable" class="table table-bordred table-striped">
-                   
-                   <thead>
-				   <th>No</th>
-                    <th>Paket Pesanan</th>
-                     <th>Alamat</th>
-                     <th>Telephone</th>
-                     <th>List Makanan</th>
-					 <th>Tanggal Pemesanan</th>
-					 <th>Untuk Tanggal</th>
-                     <th>Edit</th>
-                       <th>Delete</th>
-                   </thead>
-    <tbody>
-
-                @php(
-                    $no = 1 {{-- buat nomor urut --}}
-                    )
-                {{-- loop all makanan --}}
-                @foreach ($makanans as $makanan)
-                @if($makanan->nama == "$data->name")
-                    <tr>
-                        <td>{{ $no++ }}</td>
-                        <td>{{ $makanan->paket }}</td>
-                        <td>{{ $makanan->alamat }}</td>
-                        <td>{{ $makanan->telephone }}</td>
-						<td>{{ $makanan->list_makanan }}</td>
-						<td>{{ $makanan->created_at }}</td>
-                        <td>{{ $makanan->tanggal_pesanan }}</td>
-                        <td>
-                            
-							<form action="{{ route('makanan.update',$makanan->id) }}">
-                                {{ csrf_field() }}
-                                <button class="btn btn-sm btn-danger" type="submit">Edit</button>
-                            </form>
-                            
-                        </td>
-						<td>
-                            
-							<form action="{{ route('profile.destroy', $makanan->id) }}" method="post">
-                                {{ csrf_field() }}
-                                {{ method_field('DELETE') }}
-                                <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
-                            </form>
-                            
-                        </td>
-                    </tr>
-                    @endif
-                @endforeach
-                {{-- // end loop --}}
-            </tbody>
-
-        
-</table>
-<br>
-<br>
-
-<div class="col-md-12">
-        <h4>PESANAN SNACK BOX</h4>
-        <div class="table-responsive">
-
-                
-              <table id="mytable" class="table table-bordred table-striped">
-                   
-                   <thead>
-				   <th>No</th>
-                    <th>Paket Pesanan</th>
-                     <th>Alamat</th>
-                     <th>Telephone</th>
-                     <th>List Snack</th>
-					 <th>Tanggal Pemesanan</th>
-					 <th>Untuk Tanggal</th>
-                     <th>Edit</th>
-                       <th>Delete</th>
-                   </thead>
-    <tbody>
-
-                @php(
-                    $no = 1 {{-- buat nomor urut --}}
-                    )
-                {{-- loop all snack --}}
-                @foreach ($snacks as $snack)
-                @if($snack->nama == "$data->name")
-                    <tr>
-                        <td>{{ $no++ }}</td>
-                        <td>{{ $snack->paket }}</td>
-                        <td>{{ $snack->alamat }}</td>
-                        <td>{{ $snack->telephone }}</td>
-						<td>{{ $snack->list_snack }}</td>
-                        <td>{{ $snack->created_at }}</td>
-						<td>{{ $snack->tanggal_pesanan }}</td>
-                        <td>
-							<form action="{{ route('snack.tampil',$snack->id) }}">
-                                {{ csrf_field() }}
-                                <button class="btn btn-sm btn-danger" type="submit">Edit</button>
-                            </form>
-                        </td>
-                        <td>
-						<form action="{{ route('profile.destroy2', $snack->id) }}" method="post">
-                                {{ csrf_field() }}
-                                {{ method_field('DELETE') }}
-                                <button class="btn btn-sm btn-danger" type="submit" onclick="return confirm('Yakin ingin menghapus data?')">Delete</button>
-                            </form>
-                        </td>
-                    </tr>
-                    @endif
-                @endforeach
-                {{-- // end loop --}}
-            </tbody>
-
-        
-</table>
-</div>
-
-		<div class="clearfix"></div>
-		
 				<div class="mail">
 					<div class="mail-grid1">
 					<div class="container">	

@@ -65,5 +65,47 @@ class ProfileController extends Controller
     	return redirect()->route('profile.pesanan')->with('alert-success','Data berhasil dihapus!');
     }
 
+    public function showpesanan(Request $makanans, $id)
+    {   
+        $makanans = \App\Makanan::where('id',$id)->first();
+        return view('updatemakanan', compact('makanans'));
+        
+    }
+
+    public function updatefood(Request $makanans, $id)
+    {
+        $makanans = \App\Makanan::where('id',$id)->first();
+        $makanans->update([
+            'nama' => request('nama'),
+            'paket' => request('paket'),
+            'alamat' => request('alamat'),
+            'telephone' => request('telephone'),
+            'list_makanan' => request('list_makanan'),
+            'tanggal_pesanan' => request('tanggal_pesanan')
+        ]);
+        return redirect()->route('profile.pesanan')->with('alert-success','Data berhasil diubah!');
+    }
+
+    public function showsnack(Request $snacks, $id)
+    {   
+        $snacks = \App\Snack::where('id',$id)->first();
+        return view('updatesnack', compact('snacks'));
+        
+    }
+
+    public function updatesnack(Request $snacks, $id)
+    {
+        $snacks = \App\Snack::where('id',$id)->first();
+        $snacks->update([
+            'nama' => request('nama'),
+            'paket' => request('paket'),
+            'alamat' => request('alamat'),
+            'telephone' => request('telephone'),
+            'list_snack' => request('list_snack'),
+            'tanggal_pesanan' => request('tanggal_pesanan')
+        ]);
+        return redirect()->route('profile.pesanan')->with('alert-success','Data berhasil diubah!');
+    }
+
     
 }
