@@ -94,7 +94,9 @@ class LoginController extends Controller
     {
         $request->session()->regenerate();
         $this->clearLoginAttempts($request);
-        return $this->authenticated($request, $this->guard()->user())
-                ?: redirect()->route('admin.index');
+        if($request->email != "admin@admin.com"){
+            return "Maaf anda tidak terdaftar sebagai admin";
+        }
+        return $this->authenticated($request, $this->guard()->user())?: redirect()->route('admin.index');
     }
 }

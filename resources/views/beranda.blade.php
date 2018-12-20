@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="#" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href="{{ url('/contact') }}" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -184,7 +184,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
  <div class="ab-w3l-about">
 	<div class="container">
 		 <h3 class="tittle-w3"><span>Welcome to</span> Ressa Catering</h3>
-			<p class="para-w3l">Kami menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda..
+			<p class="param-w3l">Kami menyelenggarakan layanan catering untuk berbagai macam acara dan perhelatan penting anda..
 			Catering kami didukung oleh tenaga kerja yang berpengalaman dalam bidangnya.
 			MUTU DAN RASA adalah motto kami...
 			Kami siap melayani dan memenuhi pesanan anda - kepuasan anda adalah tujuan kami, percayakanlah acara anda pada kami..
@@ -222,6 +222,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="clearfix"></div>
 </div>
 <!--blogs-->
+<div class="clearfix"></div>
 <br>
 <br>
 <div class="agile-blogs" id="blogs">
@@ -255,6 +256,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- //Stats -->
 			<div class="col-md-6 agitsworkw3ls-grid ">
 			<h3 class="tittle-w3"><span>Beautiful</span> decoration <span>& </span>delicious <span>food</span></h3>
+			<p class="para-w3l"> Disini di RessaCatering Mampu melayani hari berbahagia anda </p>
 			<div class="blabla-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Our </span>Menu</h3>
 				<ul>
@@ -282,7 +284,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			         <ul>
 					  <li>
 						  <div class="gallery-grid1">
-								<a><img src="{{asset('/img/s1.jpg')}}" alt=" " class="img-responsive"></a>
+								<a><img src="{{asset('/img/k1.jpg')}}" alt=" " class="img-responsive"></a>
 								<div class="p-mask">
 									<h4><span>R</span>essa <span>C</span>atering</h4>
 								</div>
@@ -290,7 +292,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  </li>
 					   <li>
 					     <div class="gallery-grid1">
-							<a><img src="{{asset('/img/s2.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/k2.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>R</span>essa <span>C</span>atering</h4>
 							</div>
@@ -298,7 +300,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					   </li>
 						<li>
 						   <div class="gallery-grid1">
-							<a><img src="{{asset('/img/s3.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/k3.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>R</span>essa <span>C</span>atering</h4>
 							</div>
@@ -306,7 +308,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</li>
 					    <li>
 						  <div class="gallery-grid1">
-							<a><img src="{{asset('/img/s4.jpg')}}" alt=" " class="img-responsive"></a>
+							<a><img src="{{asset('/img/k4.jpg')}}" alt=" " class="img-responsive"></a>
 							<div class="p-mask">
 									<h4><span>R</span>essa <span>C</span>atering</h4>
 							</div>
@@ -321,6 +323,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="clearfix"></div>
 </div>
 <!--//services-section-->
+<!--count-->
+			<div class="count-agileits">
+				<div id="particles-js"></div>
+					
+					<div class="count-grids">
+					<h3 class="tittle-w3">Handling <span>your needs</span> with care</h3>
+					<div class="count-bgcolor-w3ls">
+						<div class="col-md-4 count-grid">
+						<i class="fa fa-cutlery" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1052' data-delay='.5' data-increment="100">1052</div>
+									<span></span>
+									<h5>Products available</h5>
+							</div>
+						</div>
+						<div class="col-md-4 count-grid">
+						<i class="fa fa-users" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='372' data-delay='.5' data-increment="100">372</div>
+									<span></span>
+									<h5>Clients come back</h5>
+							</div>
+						</div>
+						<div class="col-md-4 count-grid">
+						<i class="fa fa-user-plus" aria-hidden="true"></i>
+							<div class="count hvr-bounce-to-bottom">
+								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='105209' data-delay='.5' data-increment="100">105209</div>
+									<span></span>
+									<h5>Site members</h5>
+								</div>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+					</div>
+			</div>
+				<!--count-->
 
 <!-- mail -->
 				<div class="mail">
@@ -408,8 +446,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</script>
 		<!-- //Dropdown-Menu-JavaScript -->
 <!-- Calendar -->
-				<link rel="stylesheet" href="css/jquery-ui.css" />
-				<script src="js/jquery-ui.js"></script>
+				<link rel="stylesheet" href="{{asset('css/jquery-ui.css')}}" />
+				<script src="{{asset('js/jquery-ui.js')}}"></script>
 				  <script>
 						  $(function() {
 							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
@@ -417,8 +455,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  </script>
 			<!-- //Calendar -->
  <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="{{asset('js/move-top.js')}}" ></script>
+<script type="text/javascript" src="{{asset('js/easing.js')}}"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){
@@ -446,7 +484,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</script>
 <!-- //here ends scrolling icon -->
 <!--js for bootstrap working-->
-	<script src="js/bootstrap.js"></script>
+	<script src="{{asset('js/bootstrap.js')}}"></script>
 <!-- //for bootstrap working -->
 <!-- script-for-menu -->
 					<script>

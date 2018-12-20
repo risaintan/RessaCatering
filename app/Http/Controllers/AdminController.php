@@ -10,10 +10,12 @@ use App\User;
 use App\Food;
 use App\Makanan;
 use App\Snack;
-
 class AdminController extends Controller
 {
     public function index(){
+        if(Auth::user()->id != 1){
+            return redirect('home');
+        }
         $makanans = \App\Makanan::all();
         $snacks = \App\Snack::all();
         $foods = \App\Food::all();
@@ -42,6 +44,9 @@ class AdminController extends Controller
 
 
     public function showmenu(){
+        if(Auth::user()->id != 1){
+            return redirect('home');
+        }
         return view('admin.admin_input');
     }
     public function delete($id)

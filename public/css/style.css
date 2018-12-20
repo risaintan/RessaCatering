@@ -722,6 +722,14 @@ p.para-w3l {
 	text-align: center;
 	font-size: 1.0em;
 }
+p.param-w3l {
+    color: #555;
+    line-height: 2.2em;
+    margin: 0em auto 2.2em;
+    width: 90%;
+	text-align: center;
+	font-size: 1.5em;
+}
 .about-read a {
     display: block;
     text-align: center;
@@ -758,7 +766,7 @@ a.read:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 970px;
+    min-height: 950px;
 	float:right;
 }
 .ab-w3-agile-info{
@@ -1584,11 +1592,11 @@ figure.effect-jazz:hover p {
     background-size: cover;
 }
 .wthree-imgg2{
-    background: url('/img/s4.jpg') no-repeat -46px 0px;
+    background: url('/img/s4.jpg') no-repeat -35px 0px;
     background-size: cover;
 }
 .wthree-imgg3{
-    background: url('/img/s5.jpg') no-repeat -46px 0px;
+    background: url('/img/s5.jpg') no-repeat -35px 0px;
     background-size: cover;
 }
 .wthree-imgg4{

@@ -63,6 +63,9 @@ Route::get('/gallery', function () {
 });
 
 
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 
 

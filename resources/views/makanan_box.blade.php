@@ -119,7 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href="{{ url('/contact') }}" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -374,7 +374,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Minimal Pemesanan 100 untuk pengantaran daerah Jabodetabek. </p>
+							<p>Minimal Pemesanan 100 untuk pengantaran daerah Jabodetabek, selebihnya diambil. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>

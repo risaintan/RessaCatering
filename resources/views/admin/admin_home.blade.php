@@ -266,9 +266,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 @php(
                     $no = 1 {{-- buat nomor urut --}}
                     )
-                {{-- loop all kendaraan --}}
                 @foreach ($foods as $food)
-					@if($food->category == "Makanan")
                     <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $food->nama }}</td>
@@ -281,7 +279,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </form>
                         </td>
                     </tr>
-					@endif
                 @endforeach
                 {{-- // end loop --}}
             </tbody>

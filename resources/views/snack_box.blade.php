@@ -119,7 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href="{{ url('/contact') }}" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -156,8 +156,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<div class="col-md-6 agileits-special-info">
-						<h4>Risoles</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+						<h4>Risoles Mayo</h4>
+						<p>Menu Favorit Snack Asin Yang paling banyak dipesan.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -168,7 +168,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 agileits-special-info">
 						<h4>Pie Buah</h4>
-						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
+						<p>Menu Favorit Snack Asin Yang paling banyak dipesan.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
@@ -179,14 +179,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="col-md-6 agileits-special-info">
 						<h4>Brownies</h4>
-						<p>Donec nibh enim, sodales laoreet sit amet, tincidunt</p>
+						<p>Brownies coklat rumahan yang manis untuk dessert.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
-						<h4>Bika Ijo Kenari</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur</p>
+						<h4>Bolu Cheese Cake</h4>
+						<p>Perpaduan rasa asin dan manis.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-imgg2">
 						<div class="w3ls-special-text effect-1">
@@ -197,7 +197,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
 						<h4>Sus Cocktail</h4>
-						<p>Maecenas ac purus. Lorem ipsum dolor sit amet</p>
+						<p>Favorit pelanggan, karena sus manis dan gurih.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-imgg3">
 						<div class="w3ls-special-text effect-1">
@@ -208,7 +208,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="col-md-4 w3l-special-grid">
 					<div class="col-md-6 agileits-special-info">
 						<h4>Lemper</h4>
-						<p>Donec nibh enim, sodales laoreet sit amet, tincidunt</p>
+						<p>Jajanan tradisional yang bercita rasa modern.</p>
 					</div>
 					<div class="col-md-6 w3ls-special-img wthree-imgg4">
 						<div class="w3ls-special-text effect-1">
@@ -230,21 +230,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="blabla-left-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket </span>A</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BEVERAGES</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BREAKFASTS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>LUNCH BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>DINNER BUFFETS</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>PARTY TRAYS</li>
+				<li><i  aria-hidden="true"></i>MENU 3 SNACK</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Kroket/Risoles(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Pie Buah/Cheese Cake(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Brownies/Lapis Surabaya(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Aqua</li>
+					<li><i  aria-hidden="true"></i>HARGA RP 13.500,-</li>
 				</ul>
 				</div>
 				<div class="blabla-right-w3-agile">
 				<h3 class="tittle-w3 sub-head"><span>Paket </span> B</h3>
 				<ul>
-					<li><i class="fa fa-check" aria-hidden="true"></i>GRADUATION PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>WEDDING PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BRIDAL SHOWER</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>BIRTHDAY PARTY</li>
-					<li><i class="fa fa-check" aria-hidden="true"></i>ANNIVERSARY</li>
+				<li><i  aria-hidden="true"></i>MENU 4 SNACK</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Risoles Mayo/Lemper/Pastel(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Sus Cocktail/Bika Ijo Kenari(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Brownies/Kue Lumpur(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Jeruk/Kacang(OPTIONAL)</li>
+					<li><i class="fa fa-check" aria-hidden="true"></i>Aqua</li>
+					<li><i  aria-hidden="true"></i>HARGA RP 16.000,-</li>
 				</ul>
 				</div>
 			</div>
@@ -336,7 +339,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Minimal Pemesanan 100 Box, jika kurang dari itu menunggu konfirmasi via telephone/SMS dari kami. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -347,7 +350,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Minimal Pemesanan 100 untuk pengantaran daerah Jabodetabek, selebihnya diambil. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -358,7 +361,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Pelunasan pembayaran maksimal 1 minggu sebelum tanggal pesanan.  </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
@@ -369,7 +372,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="features-right-right">
-							<p>Nulla auctor vel ex a suscipit. Integer scelerisque nec dui et ullamcorper. Aenean vitae urna non est luctus venenatis. </p>
+							<p>Menu dan harga dapat berubah tanpa pemberitahuan. </p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>

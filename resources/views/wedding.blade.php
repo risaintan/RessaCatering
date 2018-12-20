@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</ul>
                     </li>
                              <li class="menu__item"><a href="{{ url('/partner') }}" class=" menu__link">Partner</a></li>
-							<li class="menu__item"><a href="contact.html" class=" menu__link">Contact</a></li>
+							<li class="menu__item"><a href="{{ url('/contact') }}" class=" menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
